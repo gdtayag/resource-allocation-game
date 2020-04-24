@@ -40,16 +40,16 @@ def menunode_inspect_and_buy(caller, raw_string):
     def buy_ware_result(caller):
         "This will be executed first when choosing to buy."
         if wealth >= value:
-            rtext = "You pay %$i and purchase %s!" % \
+            rtext = "You pay %i and purchase %s!" % \
                          (value, ware.key)
             caller.db.gold -= value
             ware.move_to(caller, quiet=True)
         else:
-            rtext = "You cannot afford $%i for %s!" % \
+            rtext = "You cannot afford %i for %s!" % \
                           (value, ware.key)
         caller.msg(rtext)
 
-    options = ({"desc": "Buy %s for %$s" % \
+    options = ({"desc": "Buy %s for %s" % \
                         (ware.key, ware.db.gold_value or 1),
                 "goto": "menunode_shopfront",
                 "exec": buy_ware_result},
@@ -78,7 +78,7 @@ class CmdBuy(Command):
     def func(self):
         "Starts the shop EvMenu instance"
         evmenu.EvMenu(self.caller,
-                      "typeclasses.npcshop",
+                      "typeclasses.shop",
                       startnode="menunode_shopfront")
 
 from evennia import CmdSet

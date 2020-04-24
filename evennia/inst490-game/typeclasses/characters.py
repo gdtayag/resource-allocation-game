@@ -32,7 +32,7 @@ class Character(DefaultCharacter):
     """
     def at_object_creation(self):
         "This is called when object is first created, only."
-        self.db.money = 10000
+        self.db.gold = 10000
 
     def get_abilities(self):
-        return self.db.money
+        return self.db.gold
