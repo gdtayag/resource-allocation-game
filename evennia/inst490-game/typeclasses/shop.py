@@ -40,11 +40,10 @@ def menunode_inspect_and_buy(caller, raw_string):
 
     def buy_ware_result(caller, raw_string):
         "This will be executed first when choosing to buy."
-        value = int(raw_string) * value
         if wealth >= value:
             rtext = "You pay %i and purchase %s!" % \
                          (value, ware.key)
-            caller.db.inventory["Budget"] -= value
+            caller.db.inventory["Budget"] -= value * int(raw_string)
             caller.db.inventory[ware] += int(raw_string)
         else:
             rtext = "You cannot afford %i for %s!" % \
