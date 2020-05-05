@@ -3508,3 +3508,61 @@
 20-05-05 04:35:44-04  |Portal| Main loop terminated.
 20-05-05 04:35:44-04  |Portal| Server Shut Down.
 20-05-05 04:35:44-04  |Portal| Server Shut Down.
+20-05-05 08:39:23  |Portal| Loading /root/muddev/evennia/evennia/server/portal/portal.py...
+20-05-05 08:39:24  |Portal| Loaded.
+20-05-05 08:39:24  |Portal| twistd 19.10.0 (/root/muddev/evenv/bin/python3.7 3.7.7) starting up.
+20-05-05 08:39:24  |Portal| reactor class: twisted.internet.epollreactor.EPollReactor.
+20-05-05 08:39:24  |Portal| AMP starting on 4006
+20-05-05 08:39:24  |Portal| Telnet starting on 4000
+20-05-05 08:39:24  |Portal| Websocket starting on 4002
+20-05-05 08:39:24  |Portal| Webserver-proxy starting on 80
+20-05-05 08:39:24  |Portal| Portal starting server ... ['twistd', '--python=/root/muddev/evennia/evennia/server/server.py', '--pidfile=/root/muddev/resource-allocation-game/evennia/inst490-game/server/server.pid']
+20-05-05 08:39:47  |Portal| dropping connection to peer tcp4:100.18.37.197:60728 with abort=True: WebSocket opening handshake timeout (peer did not finish the opening handshake in time)
+20-05-05 08:39:50  |Portal| [::] NoneType: None
+20-05-05 08:39:50  |Portal| [EE] [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+20-05-05 08:39:50  |Portal| [EE] ]
+20-05-05 08:39:50  |Portal| [EE] Caught errback in webserver.py:75.
+20-05-05 08:39:50  |Portal| [::] NoneType: None
+20-05-05 08:39:50  |Portal| [EE] [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionDone'>: Connection was closed cleanly.
+20-05-05 08:39:50  |Portal| [EE] ]
+20-05-05 08:39:50  |Portal| [EE] Caught errback in webserver.py:75.
+20-05-05 08:40:22  |Portal| Received SIGINT, shutting down.
+20-05-05 08:40:22  |Portal| (TCP Port 80 Closed)
+20-05-05 08:40:22  |Portal| (TCP Port 4002 Closed)
+20-05-05 08:40:22  |Portal| (TCP Port 4000 Closed)
+20-05-05 08:40:22  |Portal| (TCP Port 4006 Closed)
+20-05-05 08:40:22  |Portal| Unhandled Error
+	Traceback (most recent call last):
+	  File "/root/muddev/evenv/local/lib/python3.7/site-packages/twisted/internet/defer.py", line 568, in _startRunCallbacks
+	    self._runCallbacks()
+	  File "/root/muddev/evenv/local/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "/root/muddev/evenv/local/lib/python3.7/site-packages/twisted/internet/base.py", line 447, in _continueFiring
+	    callable(*args, **kwargs)
+	  File "/root/muddev/evenv/local/lib/python3.7/site-packages/twisted/internet/base.py", line 706, in disconnectAll
+	    failure.Failure(main.CONNECTION_LOST))
+	--- <exception caught here> ---
+	  File "/root/muddev/evenv/local/lib/python3.7/site-packages/twisted/python/log.py", line 103, in callWithLogger
+	    return callWithContext({"system": lp}, func, *args, **kw)
+	  File "/root/muddev/evenv/local/lib/python3.7/site-packages/twisted/python/log.py", line 86, in callWithContext
+	    return context.call({ILogContext: newCtx}, func, *args, **kw)
+	  File "/root/muddev/evenv/local/lib/python3.7/site-packages/twisted/python/context.py", line 122, in callWithContext
+	    return self.currentContext().callWithContext(ctx, func, *args, **kw)
+	  File "/root/muddev/evenv/local/lib/python3.7/site-packages/twisted/python/context.py", line 85, in callWithContext
+	    return func(*args,**kw)
+	  File "/root/muddev/evenv/local/lib/python3.7/site-packages/twisted/internet/tcp.py", line 519, in connectionLost
+	    self._commonConnection.connectionLost(self, reason)
+	  File "/root/muddev/evenv/local/lib/python3.7/site-packages/twisted/internet/tcp.py", line 327, in connectionLost
+	    protocol.connectionLost(reason)
+	  File "/root/muddev/evenv/local/lib/python3.7/site-packages/twisted/web/http.py", line 601, in connectionLost
+	    self.handleResponseEnd()
+	  File "/root/muddev/evenv/local/lib/python3.7/site-packages/twisted/web/proxy.py", line 87, in handleResponseEnd
+	    self.father.finish()
+	  File "/root/muddev/evenv/local/lib/python3.7/site-packages/twisted/web/server.py", line 286, in finish
+	    return http.Request.finish(self)
+	  File "/root/muddev/evenv/local/lib/python3.7/site-packages/twisted/web/http.py", line 1079, in finish
+	    "Request.finish called on a request after its connection was lost; "
+	builtins.RuntimeError: Request.finish called on a request after its connection was lost; use Request.notifyFinish to keep track of this.
+	
+20-05-05 08:40:22  |Portal| Main loop terminated.
+20-05-05 08:40:22  |Portal| Server Shut Down.
