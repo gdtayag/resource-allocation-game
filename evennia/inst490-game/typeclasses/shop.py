@@ -42,6 +42,7 @@ def menunode_inspect_and_buy(caller, raw_string):
             rtext = "You pay %i and purchase %s!" % \
                          (value, ware.key)
             caller.db.gold -= value
+            ware.move_to(caller, quiet=True)
         else:
             rtext = "You cannot afford %i %s!" % \
                           (value, ware.key)
@@ -50,7 +51,7 @@ def menunode_inspect_and_buy(caller, raw_string):
     amount = yield("How many:")
     value = value * amount
 
-    self.caller.buy_ware_result(self)
+    buy_ware_result(self)
 
     return text, options
 
