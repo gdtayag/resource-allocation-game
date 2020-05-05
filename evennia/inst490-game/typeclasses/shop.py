@@ -44,7 +44,7 @@ def menunode_inspect_and_buy(caller, raw_string):
             rtext = "You pay %i and purchase %s!" % \
                          (value, ware.key)
             caller.db.inventory["Budget"] -= value * int(raw_string)
-            caller.db.inventory[string(ware)] += int(raw_string)
+            caller.db.inventory[ware.key] += int(raw_string)
         else:
             rtext = "You cannot afford %i for %s!" % \
                           (value, ware.key)
