@@ -39,7 +39,7 @@ def menunode_inspect_and_buy(caller, raw_string):
 
     def buy_ware_result(caller, raw_string):
         "This will be executed first when choosing to buy."
-        value = int(raw_string) * amount
+        value = int(raw_string) * value
         if wealth >= value:
             rtext = "You pay %i and purchase %s!" % \
                          (value, ware.key)
