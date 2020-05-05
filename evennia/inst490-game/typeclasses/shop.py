@@ -35,7 +35,6 @@ def menunode_inspect_and_buy(caller, raw_string):
     ware = wares[iware]
     value = ware.db.gold_value or 1
     wealth = caller.db.gold or 0
-    text = "You inspect %s:\n\n%s" % (ware.key, ware.db.desc)
 
     def buy_ware_result(caller):
         "This will be executed first when choosing to buy."
@@ -43,18 +42,15 @@ def menunode_inspect_and_buy(caller, raw_string):
             rtext = "You pay %i and purchase %s!" % \
                          (value, ware.key)
             caller.db.gold -= value
-            ware.move_to(caller, quiet=True)
         else:
-            rtext = "You cannot afford %i for %s!" % \
+            rtext = "You cannot afford %i %s!" % \
                           (value, ware.key)
         caller.msg(rtext)
 
-    options = ({"desc": "Buy %s for %s" % \
-                        (ware.key, ware.db.gold_value or 1),
-                "goto": "menunode_shopfront",
-                "exec": buy_ware_result},
-               {"desc": "Look for something else",
-                "goto": "menunode_shopfront"})
+    amount = yield("How many:")
+    value = value * amount
+
+    self.caller.buy_ware_result(self)
 
     return text, options
 
