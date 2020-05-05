@@ -42,7 +42,7 @@ def menunode_inspect_and_buy(caller, raw_string):
         "This will be executed first when choosing to buy."
         if wealth >= value:
             rtext = "You pay %i and purchase %s!" % \
-                         (value, ware.key)
+                         (value * int(raw_string), ware.key)
             caller.db.inventory["Budget"] -= value * int(raw_string)
             caller.db.inventory[ware.key] += int(raw_string)
         else:
