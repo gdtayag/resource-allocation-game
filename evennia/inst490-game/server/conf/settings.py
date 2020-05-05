@@ -52,11 +52,11 @@ AMP_PORT = 4006
 
 # Optional - security measures limiting interface access
 # (don't set these before you know things work without them)
-#WEBSERVER_INTERFACES = ['0.0.0.0']
-#TELNET_INTERFACES = ['0.0.0.0']
-#WEBSOCKET_CLIENT_INTERFACE = '0.0.0.0'
-#WEBSOCKET_CLIENT_URL = ""
-#ALLOWED_HOSTS = ["*"]
+WEBSERVER_INTERFACES = ['0.0.0.0']
+TELNET_INTERFACES = ['0.0.0.0']
+WEBSOCKET_CLIENT_INTERFACE = '0.0.0.0'
+WEBSOCKET_CLIENT_URL = ""
+ALLOWED_HOSTS = ["*"]
 
 # uncomment if you want to lock the server down for maintenance.
 # LOCKDOWN_MODE = True
