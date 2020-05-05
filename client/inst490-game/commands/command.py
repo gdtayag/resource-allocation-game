@@ -7,6 +7,7 @@ Commands describe the input the account can do to the game.
 
 from evennia import Command as BaseCommand
 
+
 # from evennia import default_cmds
 
 
@@ -30,6 +31,7 @@ class Command(BaseCommand):
             every command, like prompts.
 
     """
+
 
 # -------------------------------------------------------------
 #
@@ -200,6 +202,34 @@ class CmdAbilities(Command):
     def func(self):
         "implements the actual functionality"
 
-        budget = self.caller.get_abilities()
-        string = "Budget: %s" % (budget)
+        inventory = self.caller.get_inventory()
+        string = ""
+        for x in inventory:
+            string += "%s: %s\n" % (x, inventory[x])
         self.caller.msg(string)
+
+
+class CmdStatus(Command):
+    key = "status"
+    aliases = ["stat"]
+    lock = "cmd:all()"
+    help_category = "General"
+
+    def func(self):
+        status = self.caller.get_status()
+        string = f"""
+        STATUS
+        ------------------------
+        Money: {status['Money']}
+        """
+        self.caller.msg(string)
+
+
+class CmdStatusTeammates(Command):
+    key = "status all"
+    aliases = ["stat all", "status -a"]
+    lock = "cmd:all()"
+    help_category = "General"
+
+    def func(self):
+        self.caller.msg(f"")

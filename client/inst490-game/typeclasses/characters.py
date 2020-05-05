@@ -30,9 +30,22 @@ class Character(DefaultCharacter):
     at_post_puppet - Echoes "AccountName has entered the game" to the room.
 
     """
+
     def at_object_creation(self):
         "This is called when object is first created, only."
-        self.db.money = 10000
+        inventory = {"Budget": 10000,
+                     "Toilet Paper": 0,
+                     "Food": 0,
+                     "Hand Sanitizer": 0,
+                     "Cyber Security": 0,
+                     "Pharmaceuticals": 0,
+                     "Workforce": 0,
+                     "Medical Supplies": 0}
+        self.db.inventory = inventory
 
-    def get_abilities(self):
-        return self.db.money
+    def get_inventory(self):
+        return self.db.inventory
+
+    def get_status(self):
+        """Add any other missing attributes of a character"""
+        return {'Money': self.db.money}
