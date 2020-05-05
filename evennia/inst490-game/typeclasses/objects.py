@@ -158,5 +158,44 @@ class Object(DefaultObject):
                                  object speaks
 
      """
+class Food(DefaultObject):
+    def at_object_creation(self):
+        self.db.key = 'Food'
+        self.db.desc = 'Food'
+        self.db.gold_value = 5
 
-    pass
+class HS(DefaultObject):
+    def at_object_creation(self):
+        self.db.key = 'Hand Sanitizer'
+        self.db.desc = 'Hand Sanitizer'
+        self.db.gold_value = 5
+
+class TP(DefaultObject):
+    def at_object_creation(self):
+        self.db.key = 'Toilet Paper'
+        self.db.desc = 'Toilet Paper'
+        self.db.gold_value = 5
+
+class CS(DefaultObject):
+    def at_object_creation(self):
+        self.db.key = 'Cyber Security'
+        self.db.desc = 'Cyber Security'
+        self.db.gold_value = 5
+
+class Pharmaceuticals(DefaultObject):
+    def at_object_creation(self):
+        self.db.key = 'Pharmaceuticals'
+        self.db.desc = 'Pharmaceuticals'
+        self.db.gold_value = 5
+
+class Workforce(DefaultObject):
+    def at_object_creation(self):
+        self.db.key = 'Workforce'
+        self.db.desc = 'Workforce'
+        self.db.gold_value = 5
+
+class MS(DefaultObject):
+    def at_object_creation(self):
+        self.db.key = 'Medical Supplies'
+        self.db.desc = 'Medical Supplies'
+        self.db.gold_value = 5

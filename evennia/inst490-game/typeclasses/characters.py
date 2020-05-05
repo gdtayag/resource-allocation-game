@@ -32,7 +32,15 @@ class Character(DefaultCharacter):
     """
     def at_object_creation(self):
         "This is called when object is first created, only."
-        self.db.gold = 10000
+        inventory = {"Budget":10000,
+                     "Toilet Paper":0,
+                     "Food":0,
+                     "Hand Sanitizer":0,
+                     "Cyber Security":0,
+                     "Pharmaceuticals":0,
+                     "Workforce":0,
+                     "Medical Supplies":0}
+        self.db.inventory = inventory
 
-    def get_abilities(self):
-        return self.db.gold
+    def get_inventory(self):
+        return self.db.inventory
