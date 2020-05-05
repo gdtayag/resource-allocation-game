@@ -1351,3 +1351,20 @@ This could either be a previously started instance of your application or a
 different application entirely. To start a new one, either run it in some other
 directory, or use the --pidfile and --logfile parameters to avoid clashes.
 
+20-05-05 04:56:31-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-05-05 04:56:32-04 Loaded.
+20-05-05 04:56:32-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-05-05 04:56:32-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-05-05 04:56:32-04 Webserver starting on 4005
+20-05-05 04:56:32-04 Evennia Server successfully started.
+20-05-05 04:56:39-04 [..] Server disconnected from the portal.
+20-05-05 04:56:39-04 Main loop terminated.
+20-05-05 04:56:39-04 Server Shut Down.
+20-05-05 04:56:39-04 Server Shut Down.
+20-05-05 04:56:54-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-05-05 04:56:55-04 Loaded.
+20-05-05 04:56:55-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-05-05 04:56:55-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-05-05 04:56:55-04 Webserver starting on 4005
+20-05-05 04:56:55-04 Evennia Server successfully started.
+20-05-05 04:57:05-04 [..] Successfully sent game details to Evennia Game Index.

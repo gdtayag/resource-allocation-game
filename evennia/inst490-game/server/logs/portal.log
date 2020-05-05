@@ -3566,3 +3566,28 @@
 	
 20-05-05 08:40:22  |Portal| Main loop terminated.
 20-05-05 08:40:22  |Portal| Server Shut Down.
+20-05-05 04:56:28-04  |Portal| Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\portal\portal.py...
+20-05-05 04:56:30-04  |Portal| Loaded.
+20-05-05 04:56:30-04  |Portal| twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-05-05 04:56:30-04  |Portal| reactor class: twisted.internet.selectreactor.SelectReactor.
+20-05-05 04:56:30-04  |Portal| AMP starting on 4006
+20-05-05 04:56:30-04  |Portal| Telnet starting on 4000
+20-05-05 04:56:30-04  |Portal| Websocket starting on 4002
+20-05-05 04:56:30-04  |Portal| Webserver-proxy starting on 80
+20-05-05 04:56:31-04  |Portal| Portal starting server ... ['c:\\users\\mtaya\\onedrive\\umd\\spring 2020\\inst 490\\evennia\\evennia\\evennia\\server\\twistd.bat', '--python=c:\\users\\mtaya\\onedrive\\umd\\spring 2020\\inst 490\\evennia\\evennia\\evennia\\server\\server.py']
+20-05-05 04:56:39-04  |Portal| (TCP Port 80 Closed)
+20-05-05 04:56:39-04  |Portal| (TCP Port 4006 Closed)
+20-05-05 04:56:39-04  |Portal| (TCP Port 4002 Closed)
+20-05-05 04:56:39-04  |Portal| (TCP Port 4000 Closed)
+20-05-05 04:56:39-04  |Portal| Main loop terminated.
+20-05-05 04:56:39-04  |Portal| Server Shut Down.
+20-05-05 04:56:39-04  |Portal| Server Shut Down.
+20-05-05 04:56:50-04  |Portal| Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\portal\portal.py...
+20-05-05 04:56:51-04  |Portal| Loaded.
+20-05-05 04:56:51-04  |Portal| twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-05-05 04:56:51-04  |Portal| reactor class: twisted.internet.selectreactor.SelectReactor.
+20-05-05 04:56:51-04  |Portal| AMP starting on 4006
+20-05-05 04:56:51-04  |Portal| Telnet starting on 4000
+20-05-05 04:56:51-04  |Portal| Websocket starting on 4002
+20-05-05 04:56:51-04  |Portal| Webserver-proxy starting on 80
+20-05-05 04:56:52-04  |Portal| Portal starting server ... ['c:\\users\\mtaya\\onedrive\\umd\\spring 2020\\inst 490\\evennia\\evennia\\evennia\\server\\twistd.bat', '--python=c:\\users\\mtaya\\onedrive\\umd\\spring 2020\\inst 490\\evennia\\evennia\\evennia\\server\\server.py']
