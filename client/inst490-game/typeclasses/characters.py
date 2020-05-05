@@ -46,6 +46,6 @@ class Character(DefaultCharacter):
     def get_inventory(self):
         return self.db.inventory
 
-    def get_status(self):
+    def get_status_all(self):
         """Add any other missing attributes of a character"""
-        return {'Money': self.db.money}
+        return Character.objects.all()

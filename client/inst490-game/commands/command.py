@@ -209,22 +209,6 @@ class CmdAbilities(Command):
         self.caller.msg(string)
 
 
-class CmdStatus(Command):
-    key = "status"
-    aliases = ["stat"]
-    lock = "cmd:all()"
-    help_category = "General"
-
-    def func(self):
-        status = self.caller.get_status()
-        string = f"""
-        STATUS
-        ------------------------
-        Money: {status['Money']}
-        """
-        self.caller.msg(string)
-
-
 class CmdStatusTeammates(Command):
     key = "status all"
     aliases = ["stat all", "status -a"]
@@ -232,4 +216,12 @@ class CmdStatusTeammates(Command):
     help_category = "General"
 
     def func(self):
-        self.caller.msg(f"")
+        for c in self.caller.get_status_all():
+            self.caller.msg(
+f"""
+            {c}
+-------------------------------
+"""
+            )
+            for k, v in c.db.inventory.items():
+                self.caller.msg(f"{k}: {v}")
