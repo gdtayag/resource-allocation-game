@@ -47,16 +47,16 @@ except ImportError:
 # closed to the internet (internal use): 4005, 4006
 TELNET_PORTS = [4000]
 WEBSOCKET_CLIENT_PORT = 4002
-WEBSERVER_PORTS = [(80, 4005)]
+WEBSERVER_PORTS = [(80,4005)]
 AMP_PORT = 4006
 
 # Optional - security measures limiting interface access
 # (don't set these before you know things work without them)
 WEBSERVER_INTERFACES = ['0.0.0.0']
-TELNET_INTERFACES = ['0.0.0.0']
-WEBSOCKET_CLIENT_INTERFACE = '0.0.0.0'
-WEBSOCKET_CLIENT_URL = "evennia.inst490.com"
-ALLOWED_HOSTS = ["*"]
+#TELNET_INTERFACES = ['0.0.0.0']
+#WEBSOCKET_CLIENT_INTERFACE = '0.0.0.0'
+#WEBSOCKET_CLIENT_URL = g"
+#ALLOWED_HOSTS = ["*"]
 
 # uncomment if you want to lock the server down for maintenance.
 # LOCKDOWN_MODE = True
