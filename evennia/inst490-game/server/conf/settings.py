@@ -53,10 +53,10 @@ AMP_PORT = 4006
 # Optional - security measures limiting interface access
 # (don't set these before you know things work without them)
 WEBSERVER_INTERFACES = ['0.0.0.0']
-#TELNET_INTERFACES = ['0.0.0.0']
-#WEBSOCKET_CLIENT_INTERFACE = '0.0.0.0'
-#WEBSOCKET_CLIENT_URL = "evennia.allowed.org"
-#ALLOWED_HOSTS = ["*"]
+TELNET_INTERFACES = ['0.0.0.0']
+WEBSOCKET_CLIENT_INTERFACE = '0.0.0.0'
+WEBSOCKET_CLIENT_URL = "evennia.inst490.com"
+ALLOWED_HOSTS = ["*"]
 
 # uncomment if you want to lock the server down for maintenance.
 # LOCKDOWN_MODE = True
