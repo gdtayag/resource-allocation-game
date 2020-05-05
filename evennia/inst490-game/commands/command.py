@@ -200,6 +200,8 @@ class CmdAbilities(Command):
     def func(self):
         "implements the actual functionality"
 
-        budget = self.caller.get_abilities()
-        string = "Budget: %s" % (budget)
+        inventory = self.caller.get_inventory()
+        string = ""
+        for x in inventory:
+            string += "%s: %s\n" % (x, inventory[x])
         self.caller.msg(string)
