@@ -25,35 +25,56 @@ def menunode_shopfront(caller):
                         "goto": "menunode_inspect_and_buy"})
     return text, options
 
-def menunode_inspect_and_buy(caller, raw_string):
+def menunode_buy_ware_result(caller, raw_string, **kwargs):
+    "This will be executed first when choosing to buy."
+    if not raw_string.strip():
+        return "menunode_shopfront"
+
+    try:
+        int(raw_string)
+    except Exception as e:
+        return None
+
+    value = kwargs.get('value')
+    ware = kwargs.get('ware')
+    wealth = kwargs.get('wealth')
+
+    if wealth >= value:
+        rtext = "You pay %i and purchase %s!" % \
+                     (value * int(raw_string), ware.key)
+        caller.db.inventory["Budget"] -= value * int(raw_string)
+        caller.db.inventory[ware.key] += int(raw_string)
+    else:
+        rtext = "You cannot afford %i for %s!" % \
+                      (value, ware.key)
+    caller.msg(rtext)
+    return "menunode_shopfront"
+
+def menunode_inspect_and_buy(caller, raw_string, **kwargs):
     "Sets up the buy menu screen."
 
-    wares = caller.location.db.storeroom.contents
-    # Don't forget, we will need to remove that pesky door again!
-    wares = [ware for ware in wares if ware.key.lower() != "door"]
-    iware = int(raw_string) - 1
-    ware = wares[iware]
-    value = ware.db.gold_value or 1
-    inventory = caller.get_inventory()
-    wealth = inventory["Budget"] or 0
+    ware = kwargs.get('ware')
+
     text = "Enter amount or <return> to go back"
 
-    def buy_ware_result(caller, raw_string):
-        "This will be executed first when choosing to buy."
-        if wealth >= value:
-            rtext = "You pay %i and purchase %s!" % \
-                         (value * int(raw_string), ware.key)
-            caller.db.inventory["Budget"] -= value * int(raw_string)
-            caller.db.inventory[ware.key] += int(raw_string)
-        else:
-            rtext = "You cannot afford %i for %s!" % \
-                          (value, ware.key)
-        caller.msg(rtext)
+    if not ware:
+        wares = caller.location.db.storeroom.contents
+        # Don't forget, we will need to remove that pesky door again!
+        wares = [ware for ware in wares if ware.key.lower() != "door"]
 
-    options = ({"key": "_default",
-                "goto": "menunode_shopfront",
-                "exec": buy_ware_result})
+        iware = int(raw_string) - 1
 
+        store = {}
+        store['ware'] = wares[iware]
+        store['value'] = store['ware'].db.gold_value or 1
+        inventory = caller.get_inventory()
+        store['wealth'] = inventory["Budget"] or 0
+
+        options = {"key": "_default",
+                    "goto": (menunode_buy_ware_result, store)}
+    else:
+        options = {"key": "_default",
+                    "goto": (menunode_buy_ware_result, kwargs)}
     return text, options
 
 from evennia import Command
