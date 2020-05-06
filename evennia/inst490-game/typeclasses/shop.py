@@ -25,15 +25,17 @@ def menunode_shopfront(caller):
                         "goto": "menunode_inspect_and_buy"})
     return text, options
 
-def menunode_buy_ware_result(caller, raw_string):
+def menunode_buy_ware_result(caller, raw_string, **kwargs):
     "This will be executed first when choosing to buy."
     try:
         int(raw_string)
+        value = kwargs.get("value")
+        ware = kwargs.get("ware")
     except Exception as e:
         return None
     if not raw_string.strip():
         return "menunode_shopfront"
-    elif wealth >= value:
+    elif kwargs.get("wealth") >= value:
         rtext = "You pay %i and purchase %s!" % \
                      (value * int(raw_string), ware.key)
         caller.db.inventory["Budget"] -= value * int(raw_string)
