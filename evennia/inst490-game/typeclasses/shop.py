@@ -38,7 +38,7 @@ def menunode_inspect_and_buy(caller, raw_string):
     wealth = inventory["Budget"] or 0
     text = "Enter amount or <return> to go back"
 
-    def buy_ware_result(caller, raw_string):
+    def menunode_buy_ware_result(caller, raw_string):
         "This will be executed first when choosing to buy."
         try:
             int(raw_string)
@@ -57,7 +57,7 @@ def menunode_inspect_and_buy(caller, raw_string):
         caller.msg(rtext)
 
     options = ({"key": "_default",
-                "goto": "buy_ware_result"})
+                "goto": "menunode_buy_ware_result"})
 
     return text, options
 
