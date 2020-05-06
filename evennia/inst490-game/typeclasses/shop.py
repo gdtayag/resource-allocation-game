@@ -46,7 +46,7 @@ def menunode_inspect_and_buy(caller, raw_string):
             return None
         if not raw_string.strip():
             return True
-        else if wealth >= value:
+        elif wealth >= value:
             rtext = "You pay %i and purchase %s!" % \
                          (value * int(raw_string), ware.key)
             caller.db.inventory["Budget"] -= value * int(raw_string)
