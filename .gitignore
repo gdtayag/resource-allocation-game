@@ -50,9 +50,3 @@ nosetests.xml
 
 # PyCharm config
 .idea
-
-# Virtual environment
-venv
-
-# Evennia
-evennia/

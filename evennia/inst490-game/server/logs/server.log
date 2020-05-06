@@ -1,0 +1,1370 @@
+20-04-20 16:43:19-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-20 16:43:20-04 Loaded.
+20-04-20 16:43:20-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-20 16:43:20-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-20 16:43:20-04 Webserver starting on 4005
+20-04-20 16:43:20-04 [..] Initial setup: Creating objects (Account #1 and Limbo room) ...
+20-04-20 16:43:20-04 [..] Initial setup: Creating default channels ...
+20-04-20 16:43:20-04 [..] Initial setup: Running at_initial_setup() hook.
+20-04-20 16:43:20-04 [..] Initial setup: Gathering static resources using 'collectstatic'
+20-04-20 16:43:20-04 
+20-04-20 16:43:20-04 0 static files copied to 'C:\Users\mtaya\OneDrive\UMD\Spring 2020\INST 490\evennia\inst490-game\web\static', 158 unmodified.
+20-04-20 16:43:20-04 [..] Initial setup complete. Restarting Server once.
+20-04-20 16:43:21-04 Evennia Server successfully started.
+20-04-20 16:43:22-04 [..] Server disconnected from the portal.
+20-04-20 16:43:22-04 Main loop terminated.
+20-04-20 16:43:22-04 Server Shut Down.
+20-04-20 16:43:22-04 Server Shut Down.
+20-04-20 16:43:24-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-20 16:43:25-04 Loaded.
+20-04-20 16:43:25-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-20 16:43:25-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-20 16:43:25-04 Webserver starting on 4005
+20-04-20 16:43:25-04 Evennia Server successfully restarted in 'reset' mode.
+20-04-20 16:48:27-04 [..] Logged in: rafterblue(account 1) 127.0.0.1 (1 session(s) total)
+20-04-20 16:58:59-04 [..] Logged out: rafterblue(account 1) 127.0.0.1 (0 sessions(s) remaining)
+20-04-20 17:55:15-04 [..] Logged in: rafterblue(account 1) 127.0.0.1 (1 session(s) total)
+20-04-20 18:11:59-04 [..] Logged in: test1(account 2) 127.0.0.1 (1 session(s) total)
+20-04-20 18:13:26-04 [..] Logged out: test1(account 2) 127.0.0.1 (0 sessions(s) remaining)
+20-04-20 18:14:44-04 [..] Logged in: test1(account 2) 127.0.0.1 (1 session(s) total)
+20-04-20 18:14:45-04 [..] Logged out: test1(account 2) 127.0.0.1 (0 sessions(s) remaining)
+20-04-20 18:14:50-04 [..] Logged out: rafterblue(account 1) 127.0.0.1 (0 sessions(s) remaining)
+20-04-20 18:16:07-04 [..] Logged in: test1(account 2) 127.0.0.1 (1 session(s) total)
+20-04-20 18:16:08-04 [..] Logged out: test1(account 2) 127.0.0.1 (0 sessions(s) remaining)
+20-04-20 18:16:30-04 [..] Logged in: test1(account 2) 127.0.0.1 (1 session(s) total)
+20-04-20 18:16:32-04 [..] Logged out: test1(account 2) 127.0.0.1 (0 sessions(s) remaining)
+20-04-20 18:22:15-04 [..] Logged in: rafterblue(account 1) 127.0.0.1 (1 session(s) total)
+20-04-20 18:34:26-04 [..] Logged out: rafterblue(account 1) 127.0.0.1 (0 sessions(s) remaining)
+20-04-20 18:38:55-04 [..] Logged in: rafterblue(account 1) 127.0.0.1 (1 session(s) total)
+20-04-20 18:39:57-04 [..] Logged out: rafterblue(account 1) 127.0.0.1 (0 sessions(s) remaining)
+20-04-20 18:48:06-04 [SS] Password successfully changed for test(account None).
+20-04-20 18:48:06-04 [SS] Account Created: test(account 6) (IP: ).
+20-04-20 18:48:44-04 [..] Logged in: test(account 6) 127.0.0.1 (1 session(s) total)
+20-04-20 18:49:03-04 [..] Logged in: rafterblue(account 1) 127.0.0.1 (1 session(s) total)
+20-04-20 19:00:27-04 [..] Logged out: rafterblue(account 1) 127.0.0.1 (0 sessions(s) remaining)
+20-04-20 19:14:48-04 [..] Logged in: rafterblue(account 1) 127.0.0.1 (1 session(s) total)
+20-04-20 19:23:11-04 [EE] Script blink_button(#None) of type 'BlinkButtonEvent': at_repeat() error '"<BlinkButtonEvent blink_button>" needs to have a value for field "id" before this many-to-many relationship can be used.'.
+20-04-20 19:25:39-04 [..] Logged out: rafterblue(account 1) 127.0.0.1 (0 sessions(s) remaining)
+20-04-20 19:25:52-04 [..] Logged in: rafterblue(account 1) 127.0.0.1 (1 session(s) total)
+20-04-20 20:49:08-04 [..] Server disconnected from the portal.
+20-04-20 20:49:08-04 Main loop terminated.
+20-04-20 20:49:08-04 Server Shut Down.
+20-04-20 20:49:08-04 Server Shut Down.
+20-04-20 20:49:10-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-20 20:49:12-04 Loaded.
+20-04-20 20:49:12-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-20 20:49:12-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-20 20:49:12-04 Webserver starting on 4005
+20-04-20 20:49:12-04 Server successfully reloaded.
+20-04-20 20:49:12-04 [::] Traceback (most recent call last):
+20-04-20 20:49:12-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdsethandler.py", line 179, in import_cmdset
+20-04-20 20:49:12-04 [::]     module = import_module(modpath, package="evennia")
+20-04-20 20:49:12-04 [::]   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.752.0_x64__qbz5n2kfra8p0\lib\importlib\__init__.py", line 127, in import_module
+20-04-20 20:49:12-04 [::]     return _bootstrap._gcd_import(name[level:], package, level)
+20-04-20 20:49:12-04 [::]   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+20-04-20 20:49:12-04 [::]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+20-04-20 20:49:12-04 [::]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+20-04-20 20:49:12-04 [::]   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+20-04-20 20:49:12-04 [::]   File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+20-04-20 20:49:12-04 [::]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+20-04-20 20:49:12-04 [::]   File ".\commands\default_cmdsets.py", line 18, in <module>
+20-04-20 20:49:12-04 [::]     from commands.command import CmdAbilities
+20-04-20 20:49:12-04 [::]   File ".\commands\command.py", line 51
+20-04-20 20:49:12-04 [::]     budget = self.caller.get_abilities()
+20-04-20 20:49:12-04 [::]     ^
+20-04-20 20:49:12-04 [::] IndentationError: unexpected indent
+20-04-20 20:49:12-04 [EE] Traceback (most recent call last):
+20-04-20 20:49:12-04 [EE]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdsethandler.py", line 179, in import_cmdset
+20-04-20 20:49:12-04 [EE]     module = import_module(modpath, package="evennia")
+20-04-20 20:49:12-04 [EE]   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.752.0_x64__qbz5n2kfra8p0\lib\importlib\__init__.py", line 127, in import_module
+20-04-20 20:49:12-04 [EE]     return _bootstrap._gcd_import(name[level:], package, level)
+20-04-20 20:49:12-04 [EE]   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+20-04-20 20:49:12-04 [EE]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+20-04-20 20:49:12-04 [EE]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+20-04-20 20:49:12-04 [EE]   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+20-04-20 20:49:12-04 [EE]   File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+20-04-20 20:49:12-04 [EE]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+20-04-20 20:49:12-04 [EE]   File ".\commands\default_cmdsets.py", line 18, in <module>
+20-04-20 20:49:12-04 [EE]     from commands.command import CmdAbilities
+20-04-20 20:49:12-04 [EE]   File ".\commands\command.py", line 51
+20-04-20 20:49:12-04 [EE]     budget = self.caller.get_abilities()
+20-04-20 20:49:12-04 [EE]     ^
+20-04-20 20:49:12-04 [EE] IndentationError: unexpected indent
+20-04-20 20:49:12-04 [EE] 
+20-04-20 20:49:12-04 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.SessionCmdSet'.
+20-04-20 20:49:12-04 [EE] (Traceback was logged 20-04-20 20:49:12-04)
+20-04-20 20:49:12-04 [EE] 
+20-04-20 20:49:12-04 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.SessionCmdSet'.
+20-04-20 20:49:12-04 [EE] Replacing with fallback 'evennia.commands.default.cmdset_session.SessionCmdSet'.
+20-04-20 20:49:12-04 [::] Traceback (most recent call last):
+20-04-20 20:49:12-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdsethandler.py", line 179, in import_cmdset
+20-04-20 20:49:12-04 [::]     module = import_module(modpath, package="evennia")
+20-04-20 20:49:12-04 [::]   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.752.0_x64__qbz5n2kfra8p0\lib\importlib\__init__.py", line 127, in import_module
+20-04-20 20:49:12-04 [::]     return _bootstrap._gcd_import(name[level:], package, level)
+20-04-20 20:49:12-04 [::]   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+20-04-20 20:49:12-04 [::]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+20-04-20 20:49:12-04 [::]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+20-04-20 20:49:12-04 [::]   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+20-04-20 20:49:12-04 [::]   File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+20-04-20 20:49:12-04 [::]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+20-04-20 20:49:12-04 [::]   File ".\commands\default_cmdsets.py", line 18, in <module>
+20-04-20 20:49:12-04 [::]     from commands.command import CmdAbilities
+20-04-20 20:49:12-04 [::]   File ".\commands\command.py", line 51
+20-04-20 20:49:12-04 [::]     budget = self.caller.get_abilities()
+20-04-20 20:49:12-04 [::]     ^
+20-04-20 20:49:12-04 [::] IndentationError: unexpected indent
+20-04-20 20:49:12-04 [EE] Traceback (most recent call last):
+20-04-20 20:49:12-04 [EE]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdsethandler.py", line 179, in import_cmdset
+20-04-20 20:49:12-04 [EE]     module = import_module(modpath, package="evennia")
+20-04-20 20:49:12-04 [EE]   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.752.0_x64__qbz5n2kfra8p0\lib\importlib\__init__.py", line 127, in import_module
+20-04-20 20:49:12-04 [EE]     return _bootstrap._gcd_import(name[level:], package, level)
+20-04-20 20:49:12-04 [EE]   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+20-04-20 20:49:12-04 [EE]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+20-04-20 20:49:12-04 [EE]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+20-04-20 20:49:12-04 [EE]   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+20-04-20 20:49:12-04 [EE]   File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+20-04-20 20:49:12-04 [EE]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+20-04-20 20:49:12-04 [EE]   File ".\commands\default_cmdsets.py", line 18, in <module>
+20-04-20 20:49:12-04 [EE]     from commands.command import CmdAbilities
+20-04-20 20:49:12-04 [EE]   File ".\commands\command.py", line 51
+20-04-20 20:49:12-04 [EE]     budget = self.caller.get_abilities()
+20-04-20 20:49:12-04 [EE]     ^
+20-04-20 20:49:12-04 [EE] IndentationError: unexpected indent
+20-04-20 20:49:12-04 [EE] 
+20-04-20 20:49:12-04 [EE] SyntaxError encountered when loading cmdset 'commands.default_cmdsets.SessionCmdSet'.
+20-04-20 20:49:12-04 [EE] (Traceback was logged 20-04-20 20:49:12-04)
+20-04-20 20:49:12-04 [EE] 
+20-04-20 20:49:12-04 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.SessionCmdSet'.
+20-04-20 20:49:12-04 [EE] Replacing with fallback 'evennia.commands.default.cmdset_session.SessionCmdSet'.
+20-04-20 20:55:57-04 [..] Server disconnected from the portal.
+20-04-20 20:55:57-04 Main loop terminated.
+20-04-20 20:55:57-04 Server Shut Down.
+20-04-20 20:55:57-04 Server Shut Down.
+20-04-20 20:55:58-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-20 20:56:01-04 Loaded.
+20-04-20 20:56:01-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-20 20:56:01-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-20 20:56:01-04 Webserver starting on 4005
+20-04-20 20:56:01-04 Server successfully reloaded.
+20-04-20 20:57:14-04 [..] Logged out: rafterblue(account 1) 127.0.0.1 (0 sessions(s) remaining)
+20-04-20 20:57:24-04 [..] Logged in: rafterblue(account 1) 127.0.0.1 (1 session(s) total)
+20-04-20 21:04:13-04 [..] Logged out: rafterblue(account 1) 127.0.0.1 (0 sessions(s) remaining)
+20-04-20 21:08:38-04 [..] Logged out: test(account 6) 127.0.0.1 (0 sessions(s) remaining)
+20-04-20 21:08:38-04 [..] Logged in: test(account 6) 127.0.0.1 (1 session(s) total)
+20-04-20 21:11:39-04 [..] Logged in: rafterblue(account 1) 127.0.0.1 (1 session(s) total)
+20-04-20 21:45:59-04 [..] Logged out: test(account 6) 127.0.0.1 (0 sessions(s) remaining)
+20-04-22 06:32:50-04 [..] Logged out: rafterblue(account 1) 127.0.0.1 (0 sessions(s) remaining)
+20-04-22 06:33:22-04 [..] Server disconnected from the portal.
+20-04-22 06:33:22-04 Main loop terminated.
+20-04-22 06:33:22-04 Server Shut Down.
+20-04-22 06:33:22-04 Server Shut Down.
+20-04-22 06:53:36-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-22 06:53:38-04 Loaded.
+20-04-22 06:53:38-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-22 06:53:38-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-22 06:53:38-04 Webserver starting on 4005
+20-04-22 06:53:38-04 Evennia Server successfully started.
+20-04-22 06:54:32-04 [..] Logged in: rafterblue(account 1) 127.0.0.1 (1 session(s) total)
+20-04-22 08:19:43-04 [..] Logged out: rafterblue(account 1) 127.0.0.1 (1 sessions(s) remaining) (Logged in from elsewhere. Disconnecting.)
+20-04-22 08:19:43-04 [..] Logged in: rafterblue(account 1) 10.0.0.65 (1 session(s) total)
+20-04-22 08:20:24-04 [..] Logged out: rafterblue(account 1) 10.0.0.65 (0 sessions(s) remaining)
+20-04-22 08:21:13-04 [..] Logged in: rafterblue(account 1) 10.0.0.65 (1 session(s) total)
+20-04-22 13:03:20-04 [..] Server disconnected from the portal.
+20-04-22 13:03:20-04 Main loop terminated.
+20-04-22 13:03:20-04 Server Shut Down.
+20-04-22 13:03:20-04 Server Shut Down.
+20-04-22 13:03:26-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-22 13:03:27-04 Loaded.
+20-04-22 13:03:27-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-22 13:03:27-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-22 13:03:27-04 Webserver starting on 4005
+20-04-22 13:03:27-04 Evennia Server successfully started.
+20-04-22 13:03:55-04 [..] Logged in: rafterblue(account 1) 10.0.0.65 (1 session(s) total)
+20-04-22 13:04:41-04 [..] Logged out: rafterblue(account 1) 10.0.0.65 (0 sessions(s) remaining)
+20-04-22 13:04:59-04 [..] Logged in: rafterblue(account 1) 10.0.0.65 (1 session(s) total)
+20-04-22 13:09:40-04 [::] Traceback (most recent call last):
+20-04-22 13:09:40-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-04-22 13:09:40-04 [::]     ret = cmd.func()
+20-04-22 13:09:40-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\shop.py", line 80, in func
+20-04-22 13:09:40-04 [::]     evmenu.EvMenu(self.caller,
+20-04-22 13:09:40-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 440, in __init__
+20-04-22 13:09:40-04 [::]     self._menutree = self._parse_menudata(menudata)
+20-04-22 13:09:40-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 571, in _parse_menudata
+20-04-22 13:09:40-04 [::]     for key, func in module.__dict__.items()
+20-04-22 13:09:40-04 [::] AttributeError: 'NoneType' object has no attribute '__dict__'
+20-04-22 13:09:40-04 [EE] User input was: 'buy'.
+20-04-22 13:15:33-04 [::] Traceback (most recent call last):
+20-04-22 13:15:33-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-04-22 13:15:33-04 [::]     ret = cmd.func()
+20-04-22 13:15:33-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\shop.py", line 80, in func
+20-04-22 13:15:33-04 [::]     evmenu.EvMenu(self.caller,
+20-04-22 13:15:33-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 440, in __init__
+20-04-22 13:15:33-04 [::]     self._menutree = self._parse_menudata(menudata)
+20-04-22 13:15:33-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 571, in _parse_menudata
+20-04-22 13:15:33-04 [::]     for key, func in module.__dict__.items()
+20-04-22 13:15:33-04 [::] AttributeError: 'NoneType' object has no attribute '__dict__'
+20-04-22 13:15:33-04 [EE] User input was: 'buy'.
+20-04-22 13:15:51-04 [::] Traceback (most recent call last):
+20-04-22 13:15:51-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-04-22 13:15:51-04 [::]     ret = cmd.func()
+20-04-22 13:15:51-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\shop.py", line 80, in func
+20-04-22 13:15:51-04 [::]     evmenu.EvMenu(self.caller,
+20-04-22 13:15:51-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 440, in __init__
+20-04-22 13:15:51-04 [::]     self._menutree = self._parse_menudata(menudata)
+20-04-22 13:15:51-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 571, in _parse_menudata
+20-04-22 13:15:51-04 [::]     for key, func in module.__dict__.items()
+20-04-22 13:15:51-04 [::] AttributeError: 'NoneType' object has no attribute '__dict__'
+20-04-22 13:15:51-04 [EE] User input was: 'buy'.
+20-04-22 13:42:05-04 [::] Traceback (most recent call last):
+20-04-22 13:42:05-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-04-22 13:42:05-04 [::]     ret = cmd.func()
+20-04-22 13:42:05-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\shop.py", line 80, in func
+20-04-22 13:42:05-04 [::]     evmenu.EvMenu(self.caller,
+20-04-22 13:42:05-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 440, in __init__
+20-04-22 13:42:05-04 [::]     self._menutree = self._parse_menudata(menudata)
+20-04-22 13:42:05-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 571, in _parse_menudata
+20-04-22 13:42:05-04 [::]     for key, func in module.__dict__.items()
+20-04-22 13:42:05-04 [::] AttributeError: 'NoneType' object has no attribute '__dict__'
+20-04-22 13:42:05-04 [EE] User input was: 'browse'.
+20-04-22 13:42:36-04 [::] Traceback (most recent call last):
+20-04-22 13:42:36-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-04-22 13:42:36-04 [::]     ret = cmd.func()
+20-04-22 13:42:36-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\shop.py", line 80, in func
+20-04-22 13:42:36-04 [::]     evmenu.EvMenu(self.caller,
+20-04-22 13:42:36-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 440, in __init__
+20-04-22 13:42:36-04 [::]     self._menutree = self._parse_menudata(menudata)
+20-04-22 13:42:36-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 571, in _parse_menudata
+20-04-22 13:42:36-04 [::]     for key, func in module.__dict__.items()
+20-04-22 13:42:36-04 [::] AttributeError: 'NoneType' object has no attribute '__dict__'
+20-04-22 13:42:36-04 [EE] User input was: 'browse'.
+20-04-22 13:44:06-04 [..] Server disconnected from the portal.
+20-04-22 13:44:06-04 Main loop terminated.
+20-04-22 13:44:06-04 Server Shut Down.
+20-04-22 13:44:06-04 Server Shut Down.
+20-04-22 13:44:11-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-22 13:44:12-04 Loaded.
+20-04-22 13:44:12-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-22 13:44:12-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-22 13:44:12-04 Webserver starting on 4005
+20-04-22 13:44:12-04 Evennia Server successfully started.
+20-04-22 13:44:20-04 [..] Logged in: rafterblue(account 1) 10.0.0.65 (1 session(s) total)
+20-04-22 13:47:04-04 [..] Logged out: rafterblue(account 1) 10.0.0.65 (0 sessions(s) remaining) (quit)
+20-04-22 13:47:19-04 [..] Logged in: rafterblue(account 1) 10.0.0.65 (1 session(s) total)
+20-04-22 13:48:49-04 [::] Traceback (most recent call last):
+20-04-22 13:48:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 757, in cmdhandler
+20-04-22 13:48:49-04 [::]     raise ExecSystemCommand(syscmd, sysarg)
+20-04-22 13:48:49-04 [::] evennia.commands.cmdhandler.ExecSystemCommand: (<evennia.utils.evmenu.CmdEvMenuNode object at 0x000002A036B15190>, '1')
+20-04-22 13:48:49-04 [::] 
+20-04-22 13:48:49-04 [::] During handling of the above exception, another exception occurred:
+20-04-22 13:48:49-04 [::] 
+20-04-22 13:48:49-04 [::] Traceback (most recent call last):
+20-04-22 13:48:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 661, in _execute_node
+20-04-22 13:48:49-04 [::]     ret = self._safe_call(node, raw_string, **kwargs)
+20-04-22 13:48:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 627, in _safe_call
+20-04-22 13:48:49-04 [::]     ret = callback(self.caller, raw_string)
+20-04-22 13:48:49-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\shop.py", line 52, in menunode_inspect_and_buy
+20-04-22 13:48:49-04 [::]     options = ({"desc": "Buy %s for %$s" % \
+20-04-22 13:48:49-04 [::] ValueError: unsupported format character '$' (0x24) at index 12
+20-04-22 13:48:49-04 [::] Traceback (most recent call last):
+20-04-22 13:48:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 757, in cmdhandler
+20-04-22 13:48:49-04 [::]     raise ExecSystemCommand(syscmd, sysarg)
+20-04-22 13:48:49-04 [::] evennia.commands.cmdhandler.ExecSystemCommand: (<evennia.utils.evmenu.CmdEvMenuNode object at 0x000002A036B15190>, '1')
+20-04-22 13:48:49-04 [::] 
+20-04-22 13:48:49-04 [::] During handling of the above exception, another exception occurred:
+20-04-22 13:48:49-04 [::] 
+20-04-22 13:48:49-04 [::] Traceback (most recent call last):
+20-04-22 13:48:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-04-22 13:48:49-04 [::]     ret = cmd.func()
+20-04-22 13:48:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 294, in func
+20-04-22 13:48:49-04 [::]     menu.parse_input(self.raw_string)
+20-04-22 13:48:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 992, in parse_input
+20-04-22 13:48:49-04 [::]     self.run_exec_then_goto(execfunc, goto, raw_string, exec_kwargs, goto_kwargs)
+20-04-22 13:48:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 897, in run_exec_then_goto
+20-04-22 13:48:49-04 [::]     self.goto(goto, raw_string, **(goto_kwargs if goto_kwargs else {}))
+20-04-22 13:48:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 812, in goto
+20-04-22 13:48:49-04 [::]     nodetext, options = self._execute_node(nodename, raw_string, **kwargs)
+20-04-22 13:48:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 661, in _execute_node
+20-04-22 13:48:49-04 [::]     ret = self._safe_call(node, raw_string, **kwargs)
+20-04-22 13:48:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 627, in _safe_call
+20-04-22 13:48:49-04 [::]     ret = callback(self.caller, raw_string)
+20-04-22 13:48:49-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\shop.py", line 52, in menunode_inspect_and_buy
+20-04-22 13:48:49-04 [::]     options = ({"desc": "Buy %s for %$s" % \
+20-04-22 13:48:49-04 [::] ValueError: unsupported format character '$' (0x24) at index 12
+20-04-22 13:48:49-04 [::] Traceback (most recent call last):
+20-04-22 13:48:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 757, in cmdhandler
+20-04-22 13:48:49-04 [::]     raise ExecSystemCommand(syscmd, sysarg)
+20-04-22 13:48:49-04 [::] evennia.commands.cmdhandler.ExecSystemCommand: (<evennia.utils.evmenu.CmdEvMenuNode object at 0x000002A036B15190>, '1')
+20-04-22 13:48:49-04 [::] 
+20-04-22 13:48:49-04 [::] During handling of the above exception, another exception occurred:
+20-04-22 13:48:49-04 [::] 
+20-04-22 13:48:49-04 [::] Traceback (most recent call last):
+20-04-22 13:48:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-04-22 13:48:49-04 [::]     ret = cmd.func()
+20-04-22 13:48:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 294, in func
+20-04-22 13:48:49-04 [::]     menu.parse_input(self.raw_string)
+20-04-22 13:48:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 992, in parse_input
+20-04-22 13:48:49-04 [::]     self.run_exec_then_goto(execfunc, goto, raw_string, exec_kwargs, goto_kwargs)
+20-04-22 13:48:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 897, in run_exec_then_goto
+20-04-22 13:48:49-04 [::]     self.goto(goto, raw_string, **(goto_kwargs if goto_kwargs else {}))
+20-04-22 13:48:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 812, in goto
+20-04-22 13:48:49-04 [::]     nodetext, options = self._execute_node(nodename, raw_string, **kwargs)
+20-04-22 13:48:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 661, in _execute_node
+20-04-22 13:48:49-04 [::]     ret = self._safe_call(node, raw_string, **kwargs)
+20-04-22 13:48:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 627, in _safe_call
+20-04-22 13:48:49-04 [::]     ret = callback(self.caller, raw_string)
+20-04-22 13:48:49-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\shop.py", line 52, in menunode_inspect_and_buy
+20-04-22 13:48:49-04 [::]     options = ({"desc": "Buy %s for %$s" % \
+20-04-22 13:48:49-04 [::] ValueError: unsupported format character '$' (0x24) at index 12
+20-04-22 13:48:49-04 [::] 
+20-04-22 13:48:49-04 [::] During handling of the above exception, another exception occurred:
+20-04-22 13:48:49-04 [::] 
+20-04-22 13:48:49-04 [::] Traceback (most recent call last):
+20-04-22 13:48:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 787, in cmdhandler
+20-04-22 13:48:49-04 [::]     ret = yield _run_command(
+20-04-22 13:48:49-04 [::] evennia.commands.cmdhandler.ErrorReported: 1
+20-04-22 13:49:57-04 [..] Logged out: rafterblue(account 1) 10.0.0.65 (0 sessions(s) remaining)
+20-04-22 13:50:13-04 [SS] Authentication Success: rafterblue(account 1) (IP: 10.0.0.65).
+20-04-22 13:50:13-04 [..] Logged in: rafterblue(account 1) 10.0.0.65 (1 session(s) total)
+20-04-22 13:50:30-04 [::] Traceback (most recent call last):
+20-04-22 13:50:30-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 757, in cmdhandler
+20-04-22 13:50:30-04 [::]     raise ExecSystemCommand(syscmd, sysarg)
+20-04-22 13:50:30-04 [::] evennia.commands.cmdhandler.ExecSystemCommand: (<evennia.utils.evmenu.CmdEvMenuNode object at 0x000002A036B15190>, '1')
+20-04-22 13:50:30-04 [::] 
+20-04-22 13:50:30-04 [::] During handling of the above exception, another exception occurred:
+20-04-22 13:50:30-04 [::] 
+20-04-22 13:50:30-04 [::] Traceback (most recent call last):
+20-04-22 13:50:30-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 661, in _execute_node
+20-04-22 13:50:30-04 [::]     ret = self._safe_call(node, raw_string, **kwargs)
+20-04-22 13:50:30-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 627, in _safe_call
+20-04-22 13:50:30-04 [::]     ret = callback(self.caller, raw_string)
+20-04-22 13:50:30-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\shop.py", line 52, in menunode_inspect_and_buy
+20-04-22 13:50:30-04 [::]     options = ({"desc": "Buy %s for $%s" % \
+20-04-22 13:50:30-04 [::] ValueError: unsupported format character '$' (0x24) at index 12
+20-04-22 13:50:30-04 [::] Traceback (most recent call last):
+20-04-22 13:50:30-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 757, in cmdhandler
+20-04-22 13:50:30-04 [::]     raise ExecSystemCommand(syscmd, sysarg)
+20-04-22 13:50:30-04 [::] evennia.commands.cmdhandler.ExecSystemCommand: (<evennia.utils.evmenu.CmdEvMenuNode object at 0x000002A036B15190>, '1')
+20-04-22 13:50:30-04 [::] 
+20-04-22 13:50:30-04 [::] During handling of the above exception, another exception occurred:
+20-04-22 13:50:30-04 [::] 
+20-04-22 13:50:30-04 [::] Traceback (most recent call last):
+20-04-22 13:50:30-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-04-22 13:50:30-04 [::]     ret = cmd.func()
+20-04-22 13:50:30-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 294, in func
+20-04-22 13:50:30-04 [::]     menu.parse_input(self.raw_string)
+20-04-22 13:50:30-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 992, in parse_input
+20-04-22 13:50:30-04 [::]     self.run_exec_then_goto(execfunc, goto, raw_string, exec_kwargs, goto_kwargs)
+20-04-22 13:50:30-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 897, in run_exec_then_goto
+20-04-22 13:50:30-04 [::]     self.goto(goto, raw_string, **(goto_kwargs if goto_kwargs else {}))
+20-04-22 13:50:30-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 812, in goto
+20-04-22 13:50:30-04 [::]     nodetext, options = self._execute_node(nodename, raw_string, **kwargs)
+20-04-22 13:50:30-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 661, in _execute_node
+20-04-22 13:50:30-04 [::]     ret = self._safe_call(node, raw_string, **kwargs)
+20-04-22 13:50:30-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 627, in _safe_call
+20-04-22 13:50:30-04 [::]     ret = callback(self.caller, raw_string)
+20-04-22 13:50:30-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\shop.py", line 52, in menunode_inspect_and_buy
+20-04-22 13:50:30-04 [::]     options = ({"desc": "Buy %s for $%s" % \
+20-04-22 13:50:30-04 [::] ValueError: unsupported format character '$' (0x24) at index 12
+20-04-22 13:50:30-04 [::] Traceback (most recent call last):
+20-04-22 13:50:30-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 757, in cmdhandler
+20-04-22 13:50:30-04 [::]     raise ExecSystemCommand(syscmd, sysarg)
+20-04-22 13:50:30-04 [::] evennia.commands.cmdhandler.ExecSystemCommand: (<evennia.utils.evmenu.CmdEvMenuNode object at 0x000002A036B15190>, '1')
+20-04-22 13:50:30-04 [::] 
+20-04-22 13:50:30-04 [::] During handling of the above exception, another exception occurred:
+20-04-22 13:50:30-04 [::] 
+20-04-22 13:50:30-04 [::] Traceback (most recent call last):
+20-04-22 13:50:30-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-04-22 13:50:30-04 [::]     ret = cmd.func()
+20-04-22 13:50:30-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 294, in func
+20-04-22 13:50:30-04 [::]     menu.parse_input(self.raw_string)
+20-04-22 13:50:30-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 992, in parse_input
+20-04-22 13:50:30-04 [::]     self.run_exec_then_goto(execfunc, goto, raw_string, exec_kwargs, goto_kwargs)
+20-04-22 13:50:30-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 897, in run_exec_then_goto
+20-04-22 13:50:30-04 [::]     self.goto(goto, raw_string, **(goto_kwargs if goto_kwargs else {}))
+20-04-22 13:50:30-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 812, in goto
+20-04-22 13:50:30-04 [::]     nodetext, options = self._execute_node(nodename, raw_string, **kwargs)
+20-04-22 13:50:30-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 661, in _execute_node
+20-04-22 13:50:30-04 [::]     ret = self._safe_call(node, raw_string, **kwargs)
+20-04-22 13:50:30-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 627, in _safe_call
+20-04-22 13:50:30-04 [::]     ret = callback(self.caller, raw_string)
+20-04-22 13:50:30-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\shop.py", line 52, in menunode_inspect_and_buy
+20-04-22 13:50:30-04 [::]     options = ({"desc": "Buy %s for $%s" % \
+20-04-22 13:50:30-04 [::] ValueError: unsupported format character '$' (0x24) at index 12
+20-04-22 13:50:30-04 [::] 
+20-04-22 13:50:30-04 [::] During handling of the above exception, another exception occurred:
+20-04-22 13:50:30-04 [::] 
+20-04-22 13:50:30-04 [::] Traceback (most recent call last):
+20-04-22 13:50:30-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 787, in cmdhandler
+20-04-22 13:50:30-04 [::]     ret = yield _run_command(
+20-04-22 13:50:30-04 [::] evennia.commands.cmdhandler.ErrorReported: 1
+20-04-22 13:50:51-04 [::] Traceback (most recent call last):
+20-04-22 13:50:51-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 757, in cmdhandler
+20-04-22 13:50:51-04 [::]     raise ExecSystemCommand(syscmd, sysarg)
+20-04-22 13:50:51-04 [::] evennia.commands.cmdhandler.ExecSystemCommand: (<evennia.utils.evmenu.CmdEvMenuNode object at 0x000002A036B15190>, '1')
+20-04-22 13:50:51-04 [::] 
+20-04-22 13:50:51-04 [::] During handling of the above exception, another exception occurred:
+20-04-22 13:50:51-04 [::] 
+20-04-22 13:50:51-04 [::] Traceback (most recent call last):
+20-04-22 13:50:51-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 661, in _execute_node
+20-04-22 13:50:51-04 [::]     ret = self._safe_call(node, raw_string, **kwargs)
+20-04-22 13:50:51-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 627, in _safe_call
+20-04-22 13:50:51-04 [::]     ret = callback(self.caller, raw_string)
+20-04-22 13:50:51-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\shop.py", line 52, in menunode_inspect_and_buy
+20-04-22 13:50:51-04 [::]     options = ({"desc": "Buy %s for \$%s" % \
+20-04-22 13:50:51-04 [::] ValueError: unsupported format character '$' (0x24) at index 12
+20-04-22 13:50:51-04 [::] Traceback (most recent call last):
+20-04-22 13:50:51-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 757, in cmdhandler
+20-04-22 13:50:51-04 [::]     raise ExecSystemCommand(syscmd, sysarg)
+20-04-22 13:50:51-04 [::] evennia.commands.cmdhandler.ExecSystemCommand: (<evennia.utils.evmenu.CmdEvMenuNode object at 0x000002A036B15190>, '1')
+20-04-22 13:50:51-04 [::] 
+20-04-22 13:50:51-04 [::] During handling of the above exception, another exception occurred:
+20-04-22 13:50:51-04 [::] 
+20-04-22 13:50:51-04 [::] Traceback (most recent call last):
+20-04-22 13:50:51-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-04-22 13:50:51-04 [::]     ret = cmd.func()
+20-04-22 13:50:51-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 294, in func
+20-04-22 13:50:51-04 [::]     menu.parse_input(self.raw_string)
+20-04-22 13:50:51-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 992, in parse_input
+20-04-22 13:50:51-04 [::]     self.run_exec_then_goto(execfunc, goto, raw_string, exec_kwargs, goto_kwargs)
+20-04-22 13:50:51-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 897, in run_exec_then_goto
+20-04-22 13:50:51-04 [::]     self.goto(goto, raw_string, **(goto_kwargs if goto_kwargs else {}))
+20-04-22 13:50:51-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 812, in goto
+20-04-22 13:50:51-04 [::]     nodetext, options = self._execute_node(nodename, raw_string, **kwargs)
+20-04-22 13:50:51-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 661, in _execute_node
+20-04-22 13:50:51-04 [::]     ret = self._safe_call(node, raw_string, **kwargs)
+20-04-22 13:50:51-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 627, in _safe_call
+20-04-22 13:50:51-04 [::]     ret = callback(self.caller, raw_string)
+20-04-22 13:50:51-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\shop.py", line 52, in menunode_inspect_and_buy
+20-04-22 13:50:51-04 [::]     options = ({"desc": "Buy %s for \$%s" % \
+20-04-22 13:50:51-04 [::] ValueError: unsupported format character '$' (0x24) at index 12
+20-04-22 13:50:51-04 [::] Traceback (most recent call last):
+20-04-22 13:50:51-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 757, in cmdhandler
+20-04-22 13:50:51-04 [::]     raise ExecSystemCommand(syscmd, sysarg)
+20-04-22 13:50:51-04 [::] evennia.commands.cmdhandler.ExecSystemCommand: (<evennia.utils.evmenu.CmdEvMenuNode object at 0x000002A036B15190>, '1')
+20-04-22 13:50:51-04 [::] 
+20-04-22 13:50:51-04 [::] During handling of the above exception, another exception occurred:
+20-04-22 13:50:51-04 [::] 
+20-04-22 13:50:51-04 [::] Traceback (most recent call last):
+20-04-22 13:50:51-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-04-22 13:50:51-04 [::]     ret = cmd.func()
+20-04-22 13:50:51-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 294, in func
+20-04-22 13:50:51-04 [::]     menu.parse_input(self.raw_string)
+20-04-22 13:50:51-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 992, in parse_input
+20-04-22 13:50:51-04 [::]     self.run_exec_then_goto(execfunc, goto, raw_string, exec_kwargs, goto_kwargs)
+20-04-22 13:50:51-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 897, in run_exec_then_goto
+20-04-22 13:50:51-04 [::]     self.goto(goto, raw_string, **(goto_kwargs if goto_kwargs else {}))
+20-04-22 13:50:51-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 812, in goto
+20-04-22 13:50:51-04 [::]     nodetext, options = self._execute_node(nodename, raw_string, **kwargs)
+20-04-22 13:50:51-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 661, in _execute_node
+20-04-22 13:50:51-04 [::]     ret = self._safe_call(node, raw_string, **kwargs)
+20-04-22 13:50:51-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 627, in _safe_call
+20-04-22 13:50:51-04 [::]     ret = callback(self.caller, raw_string)
+20-04-22 13:50:51-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\shop.py", line 52, in menunode_inspect_and_buy
+20-04-22 13:50:51-04 [::]     options = ({"desc": "Buy %s for \$%s" % \
+20-04-22 13:50:51-04 [::] ValueError: unsupported format character '$' (0x24) at index 12
+20-04-22 13:50:51-04 [::] 
+20-04-22 13:50:51-04 [::] During handling of the above exception, another exception occurred:
+20-04-22 13:50:51-04 [::] 
+20-04-22 13:50:51-04 [::] Traceback (most recent call last):
+20-04-22 13:50:51-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 787, in cmdhandler
+20-04-22 13:50:51-04 [::]     ret = yield _run_command(
+20-04-22 13:50:51-04 [::] evennia.commands.cmdhandler.ErrorReported: 1
+20-04-22 13:51:04-04 [::] Traceback (most recent call last):
+20-04-22 13:51:04-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 757, in cmdhandler
+20-04-22 13:51:04-04 [::]     raise ExecSystemCommand(syscmd, sysarg)
+20-04-22 13:51:04-04 [::] evennia.commands.cmdhandler.ExecSystemCommand: (<evennia.utils.evmenu.CmdEvMenuNode object at 0x000002A036B15190>, '1')
+20-04-22 13:51:04-04 [::] 
+20-04-22 13:51:04-04 [::] During handling of the above exception, another exception occurred:
+20-04-22 13:51:04-04 [::] 
+20-04-22 13:51:04-04 [::] Traceback (most recent call last):
+20-04-22 13:51:04-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 661, in _execute_node
+20-04-22 13:51:04-04 [::]     ret = self._safe_call(node, raw_string, **kwargs)
+20-04-22 13:51:04-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 627, in _safe_call
+20-04-22 13:51:04-04 [::]     ret = callback(self.caller, raw_string)
+20-04-22 13:51:04-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\shop.py", line 52, in menunode_inspect_and_buy
+20-04-22 13:51:04-04 [::]     options = ({"desc": "Buy %s for %s" % \
+20-04-22 13:51:04-04 [::] ValueError: unsupported format character '$' (0x24) at index 12
+20-04-22 13:51:04-04 [::] Traceback (most recent call last):
+20-04-22 13:51:04-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 757, in cmdhandler
+20-04-22 13:51:04-04 [::]     raise ExecSystemCommand(syscmd, sysarg)
+20-04-22 13:51:04-04 [::] evennia.commands.cmdhandler.ExecSystemCommand: (<evennia.utils.evmenu.CmdEvMenuNode object at 0x000002A036B15190>, '1')
+20-04-22 13:51:04-04 [::] 
+20-04-22 13:51:04-04 [::] During handling of the above exception, another exception occurred:
+20-04-22 13:51:04-04 [::] 
+20-04-22 13:51:04-04 [::] Traceback (most recent call last):
+20-04-22 13:51:04-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-04-22 13:51:04-04 [::]     ret = cmd.func()
+20-04-22 13:51:04-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 294, in func
+20-04-22 13:51:04-04 [::]     menu.parse_input(self.raw_string)
+20-04-22 13:51:04-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 992, in parse_input
+20-04-22 13:51:04-04 [::]     self.run_exec_then_goto(execfunc, goto, raw_string, exec_kwargs, goto_kwargs)
+20-04-22 13:51:04-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 897, in run_exec_then_goto
+20-04-22 13:51:04-04 [::]     self.goto(goto, raw_string, **(goto_kwargs if goto_kwargs else {}))
+20-04-22 13:51:04-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 812, in goto
+20-04-22 13:51:04-04 [::]     nodetext, options = self._execute_node(nodename, raw_string, **kwargs)
+20-04-22 13:51:04-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 661, in _execute_node
+20-04-22 13:51:04-04 [::]     ret = self._safe_call(node, raw_string, **kwargs)
+20-04-22 13:51:04-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 627, in _safe_call
+20-04-22 13:51:04-04 [::]     ret = callback(self.caller, raw_string)
+20-04-22 13:51:04-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\shop.py", line 52, in menunode_inspect_and_buy
+20-04-22 13:51:04-04 [::]     options = ({"desc": "Buy %s for %s" % \
+20-04-22 13:51:04-04 [::] ValueError: unsupported format character '$' (0x24) at index 12
+20-04-22 13:51:04-04 [::] Traceback (most recent call last):
+20-04-22 13:51:04-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 757, in cmdhandler
+20-04-22 13:51:04-04 [::]     raise ExecSystemCommand(syscmd, sysarg)
+20-04-22 13:51:04-04 [::] evennia.commands.cmdhandler.ExecSystemCommand: (<evennia.utils.evmenu.CmdEvMenuNode object at 0x000002A036B15190>, '1')
+20-04-22 13:51:04-04 [::] 
+20-04-22 13:51:04-04 [::] During handling of the above exception, another exception occurred:
+20-04-22 13:51:04-04 [::] 
+20-04-22 13:51:04-04 [::] Traceback (most recent call last):
+20-04-22 13:51:04-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-04-22 13:51:04-04 [::]     ret = cmd.func()
+20-04-22 13:51:04-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 294, in func
+20-04-22 13:51:04-04 [::]     menu.parse_input(self.raw_string)
+20-04-22 13:51:04-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 992, in parse_input
+20-04-22 13:51:04-04 [::]     self.run_exec_then_goto(execfunc, goto, raw_string, exec_kwargs, goto_kwargs)
+20-04-22 13:51:04-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 897, in run_exec_then_goto
+20-04-22 13:51:04-04 [::]     self.goto(goto, raw_string, **(goto_kwargs if goto_kwargs else {}))
+20-04-22 13:51:04-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 812, in goto
+20-04-22 13:51:04-04 [::]     nodetext, options = self._execute_node(nodename, raw_string, **kwargs)
+20-04-22 13:51:04-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 661, in _execute_node
+20-04-22 13:51:04-04 [::]     ret = self._safe_call(node, raw_string, **kwargs)
+20-04-22 13:51:04-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 627, in _safe_call
+20-04-22 13:51:04-04 [::]     ret = callback(self.caller, raw_string)
+20-04-22 13:51:04-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\shop.py", line 52, in menunode_inspect_and_buy
+20-04-22 13:51:04-04 [::]     options = ({"desc": "Buy %s for %s" % \
+20-04-22 13:51:04-04 [::] ValueError: unsupported format character '$' (0x24) at index 12
+20-04-22 13:51:04-04 [::] 
+20-04-22 13:51:04-04 [::] During handling of the above exception, another exception occurred:
+20-04-22 13:51:04-04 [::] 
+20-04-22 13:51:04-04 [::] Traceback (most recent call last):
+20-04-22 13:51:04-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 787, in cmdhandler
+20-04-22 13:51:04-04 [::]     ret = yield _run_command(
+20-04-22 13:51:04-04 [::] evennia.commands.cmdhandler.ErrorReported: 1
+20-04-22 13:51:49-04 [::] Traceback (most recent call last):
+20-04-22 13:51:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 757, in cmdhandler
+20-04-22 13:51:49-04 [::]     raise ExecSystemCommand(syscmd, sysarg)
+20-04-22 13:51:49-04 [::] evennia.commands.cmdhandler.ExecSystemCommand: (<evennia.utils.evmenu.CmdEvMenuNode object at 0x000002A036B15190>, '1')
+20-04-22 13:51:49-04 [::] 
+20-04-22 13:51:49-04 [::] During handling of the above exception, another exception occurred:
+20-04-22 13:51:49-04 [::] 
+20-04-22 13:51:49-04 [::] Traceback (most recent call last):
+20-04-22 13:51:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 661, in _execute_node
+20-04-22 13:51:49-04 [::]     ret = self._safe_call(node, raw_string, **kwargs)
+20-04-22 13:51:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 627, in _safe_call
+20-04-22 13:51:49-04 [::]     ret = callback(self.caller, raw_string)
+20-04-22 13:51:49-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\shop.py", line 52, in menunode_inspect_and_buy
+20-04-22 13:51:49-04 [::]     options = ({"desc": "Buy %s for %s" % \
+20-04-22 13:51:49-04 [::] ValueError: unsupported format character '$' (0x24) at index 12
+20-04-22 13:51:49-04 [::] Traceback (most recent call last):
+20-04-22 13:51:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 757, in cmdhandler
+20-04-22 13:51:49-04 [::]     raise ExecSystemCommand(syscmd, sysarg)
+20-04-22 13:51:49-04 [::] evennia.commands.cmdhandler.ExecSystemCommand: (<evennia.utils.evmenu.CmdEvMenuNode object at 0x000002A036B15190>, '1')
+20-04-22 13:51:49-04 [::] 
+20-04-22 13:51:49-04 [::] During handling of the above exception, another exception occurred:
+20-04-22 13:51:49-04 [::] 
+20-04-22 13:51:49-04 [::] Traceback (most recent call last):
+20-04-22 13:51:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-04-22 13:51:49-04 [::]     ret = cmd.func()
+20-04-22 13:51:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 294, in func
+20-04-22 13:51:49-04 [::]     menu.parse_input(self.raw_string)
+20-04-22 13:51:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 992, in parse_input
+20-04-22 13:51:49-04 [::]     self.run_exec_then_goto(execfunc, goto, raw_string, exec_kwargs, goto_kwargs)
+20-04-22 13:51:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 897, in run_exec_then_goto
+20-04-22 13:51:49-04 [::]     self.goto(goto, raw_string, **(goto_kwargs if goto_kwargs else {}))
+20-04-22 13:51:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 812, in goto
+20-04-22 13:51:49-04 [::]     nodetext, options = self._execute_node(nodename, raw_string, **kwargs)
+20-04-22 13:51:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 661, in _execute_node
+20-04-22 13:51:49-04 [::]     ret = self._safe_call(node, raw_string, **kwargs)
+20-04-22 13:51:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 627, in _safe_call
+20-04-22 13:51:49-04 [::]     ret = callback(self.caller, raw_string)
+20-04-22 13:51:49-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\shop.py", line 52, in menunode_inspect_and_buy
+20-04-22 13:51:49-04 [::]     options = ({"desc": "Buy %s for %s" % \
+20-04-22 13:51:49-04 [::] ValueError: unsupported format character '$' (0x24) at index 12
+20-04-22 13:51:49-04 [::] Traceback (most recent call last):
+20-04-22 13:51:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 757, in cmdhandler
+20-04-22 13:51:49-04 [::]     raise ExecSystemCommand(syscmd, sysarg)
+20-04-22 13:51:49-04 [::] evennia.commands.cmdhandler.ExecSystemCommand: (<evennia.utils.evmenu.CmdEvMenuNode object at 0x000002A036B15190>, '1')
+20-04-22 13:51:49-04 [::] 
+20-04-22 13:51:49-04 [::] During handling of the above exception, another exception occurred:
+20-04-22 13:51:49-04 [::] 
+20-04-22 13:51:49-04 [::] Traceback (most recent call last):
+20-04-22 13:51:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-04-22 13:51:49-04 [::]     ret = cmd.func()
+20-04-22 13:51:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 294, in func
+20-04-22 13:51:49-04 [::]     menu.parse_input(self.raw_string)
+20-04-22 13:51:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 992, in parse_input
+20-04-22 13:51:49-04 [::]     self.run_exec_then_goto(execfunc, goto, raw_string, exec_kwargs, goto_kwargs)
+20-04-22 13:51:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 897, in run_exec_then_goto
+20-04-22 13:51:49-04 [::]     self.goto(goto, raw_string, **(goto_kwargs if goto_kwargs else {}))
+20-04-22 13:51:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 812, in goto
+20-04-22 13:51:49-04 [::]     nodetext, options = self._execute_node(nodename, raw_string, **kwargs)
+20-04-22 13:51:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 661, in _execute_node
+20-04-22 13:51:49-04 [::]     ret = self._safe_call(node, raw_string, **kwargs)
+20-04-22 13:51:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 627, in _safe_call
+20-04-22 13:51:49-04 [::]     ret = callback(self.caller, raw_string)
+20-04-22 13:51:49-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\shop.py", line 52, in menunode_inspect_and_buy
+20-04-22 13:51:49-04 [::]     options = ({"desc": "Buy %s for %s" % \
+20-04-22 13:51:49-04 [::] ValueError: unsupported format character '$' (0x24) at index 12
+20-04-22 13:51:49-04 [::] 
+20-04-22 13:51:49-04 [::] During handling of the above exception, another exception occurred:
+20-04-22 13:51:49-04 [::] 
+20-04-22 13:51:49-04 [::] Traceback (most recent call last):
+20-04-22 13:51:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 787, in cmdhandler
+20-04-22 13:51:49-04 [::]     ret = yield _run_command(
+20-04-22 13:51:49-04 [::] evennia.commands.cmdhandler.ErrorReported: 1
+20-04-22 13:51:57-04 [::] Traceback (most recent call last):
+20-04-22 13:51:57-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 757, in cmdhandler
+20-04-22 13:51:57-04 [::]     raise ExecSystemCommand(syscmd, sysarg)
+20-04-22 13:51:57-04 [::] evennia.commands.cmdhandler.ExecSystemCommand: (<evennia.utils.evmenu.CmdEvMenuNode object at 0x000002A036B15190>, '1')
+20-04-22 13:51:57-04 [::] 
+20-04-22 13:51:57-04 [::] During handling of the above exception, another exception occurred:
+20-04-22 13:51:57-04 [::] 
+20-04-22 13:51:57-04 [::] Traceback (most recent call last):
+20-04-22 13:51:57-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 661, in _execute_node
+20-04-22 13:51:57-04 [::]     ret = self._safe_call(node, raw_string, **kwargs)
+20-04-22 13:51:57-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 627, in _safe_call
+20-04-22 13:51:57-04 [::]     ret = callback(self.caller, raw_string)
+20-04-22 13:51:57-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\shop.py", line 52, in menunode_inspect_and_buy
+20-04-22 13:51:57-04 [::]     options = ({"desc": "Buy %s for %s" % \
+20-04-22 13:51:57-04 [::] ValueError: unsupported format character '$' (0x24) at index 12
+20-04-22 13:51:57-04 [::] Traceback (most recent call last):
+20-04-22 13:51:57-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 757, in cmdhandler
+20-04-22 13:51:57-04 [::]     raise ExecSystemCommand(syscmd, sysarg)
+20-04-22 13:51:57-04 [::] evennia.commands.cmdhandler.ExecSystemCommand: (<evennia.utils.evmenu.CmdEvMenuNode object at 0x000002A036B15190>, '1')
+20-04-22 13:51:57-04 [::] 
+20-04-22 13:51:57-04 [::] During handling of the above exception, another exception occurred:
+20-04-22 13:51:57-04 [::] 
+20-04-22 13:51:57-04 [::] Traceback (most recent call last):
+20-04-22 13:51:57-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-04-22 13:51:57-04 [::]     ret = cmd.func()
+20-04-22 13:51:57-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 294, in func
+20-04-22 13:51:57-04 [::]     menu.parse_input(self.raw_string)
+20-04-22 13:51:57-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 992, in parse_input
+20-04-22 13:51:57-04 [::]     self.run_exec_then_goto(execfunc, goto, raw_string, exec_kwargs, goto_kwargs)
+20-04-22 13:51:57-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 897, in run_exec_then_goto
+20-04-22 13:51:57-04 [::]     self.goto(goto, raw_string, **(goto_kwargs if goto_kwargs else {}))
+20-04-22 13:51:57-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 812, in goto
+20-04-22 13:51:57-04 [::]     nodetext, options = self._execute_node(nodename, raw_string, **kwargs)
+20-04-22 13:51:57-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 661, in _execute_node
+20-04-22 13:51:57-04 [::]     ret = self._safe_call(node, raw_string, **kwargs)
+20-04-22 13:51:57-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 627, in _safe_call
+20-04-22 13:51:57-04 [::]     ret = callback(self.caller, raw_string)
+20-04-22 13:51:57-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\shop.py", line 52, in menunode_inspect_and_buy
+20-04-22 13:51:57-04 [::]     options = ({"desc": "Buy %s for %s" % \
+20-04-22 13:51:57-04 [::] ValueError: unsupported format character '$' (0x24) at index 12
+20-04-22 13:51:57-04 [::] Traceback (most recent call last):
+20-04-22 13:51:57-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 757, in cmdhandler
+20-04-22 13:51:57-04 [::]     raise ExecSystemCommand(syscmd, sysarg)
+20-04-22 13:51:57-04 [::] evennia.commands.cmdhandler.ExecSystemCommand: (<evennia.utils.evmenu.CmdEvMenuNode object at 0x000002A036B15190>, '1')
+20-04-22 13:51:57-04 [::] 
+20-04-22 13:51:57-04 [::] During handling of the above exception, another exception occurred:
+20-04-22 13:51:57-04 [::] 
+20-04-22 13:51:57-04 [::] Traceback (most recent call last):
+20-04-22 13:51:57-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-04-22 13:51:57-04 [::]     ret = cmd.func()
+20-04-22 13:51:57-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 294, in func
+20-04-22 13:51:57-04 [::]     menu.parse_input(self.raw_string)
+20-04-22 13:51:57-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 992, in parse_input
+20-04-22 13:51:57-04 [::]     self.run_exec_then_goto(execfunc, goto, raw_string, exec_kwargs, goto_kwargs)
+20-04-22 13:51:57-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 897, in run_exec_then_goto
+20-04-22 13:51:57-04 [::]     self.goto(goto, raw_string, **(goto_kwargs if goto_kwargs else {}))
+20-04-22 13:51:57-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 812, in goto
+20-04-22 13:51:57-04 [::]     nodetext, options = self._execute_node(nodename, raw_string, **kwargs)
+20-04-22 13:51:57-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 661, in _execute_node
+20-04-22 13:51:57-04 [::]     ret = self._safe_call(node, raw_string, **kwargs)
+20-04-22 13:51:57-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 627, in _safe_call
+20-04-22 13:51:57-04 [::]     ret = callback(self.caller, raw_string)
+20-04-22 13:51:57-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\shop.py", line 52, in menunode_inspect_and_buy
+20-04-22 13:51:57-04 [::]     options = ({"desc": "Buy %s for %s" % \
+20-04-22 13:51:57-04 [::] ValueError: unsupported format character '$' (0x24) at index 12
+20-04-22 13:51:57-04 [::] 
+20-04-22 13:51:57-04 [::] During handling of the above exception, another exception occurred:
+20-04-22 13:51:57-04 [::] 
+20-04-22 13:51:57-04 [::] Traceback (most recent call last):
+20-04-22 13:51:57-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 787, in cmdhandler
+20-04-22 13:51:57-04 [::]     ret = yield _run_command(
+20-04-22 13:51:57-04 [::] evennia.commands.cmdhandler.ErrorReported: 1
+20-04-22 13:52:11-04 [..] Logged out: rafterblue(account 1) 10.0.0.65 (0 sessions(s) remaining)
+20-04-22 13:52:13-04 [..] Logged in: rafterblue(account 1) 10.0.0.65 (1 session(s) total)
+20-04-22 13:52:18-04 [::] Traceback (most recent call last):
+20-04-22 13:52:18-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 757, in cmdhandler
+20-04-22 13:52:18-04 [::]     raise ExecSystemCommand(syscmd, sysarg)
+20-04-22 13:52:18-04 [::] evennia.commands.cmdhandler.ExecSystemCommand: (<evennia.utils.evmenu.CmdEvMenuNode object at 0x000002A036B15190>, '1')
+20-04-22 13:52:18-04 [::] 
+20-04-22 13:52:18-04 [::] During handling of the above exception, another exception occurred:
+20-04-22 13:52:18-04 [::] 
+20-04-22 13:52:18-04 [::] Traceback (most recent call last):
+20-04-22 13:52:18-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 661, in _execute_node
+20-04-22 13:52:18-04 [::]     ret = self._safe_call(node, raw_string, **kwargs)
+20-04-22 13:52:18-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 627, in _safe_call
+20-04-22 13:52:18-04 [::]     ret = callback(self.caller, raw_string)
+20-04-22 13:52:18-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\shop.py", line 52, in menunode_inspect_and_buy
+20-04-22 13:52:18-04 [::]     options = ({"desc": "Buy %s for %s" % \
+20-04-22 13:52:18-04 [::] ValueError: unsupported format character '$' (0x24) at index 12
+20-04-22 13:52:18-04 [::] Traceback (most recent call last):
+20-04-22 13:52:18-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 757, in cmdhandler
+20-04-22 13:52:18-04 [::]     raise ExecSystemCommand(syscmd, sysarg)
+20-04-22 13:52:18-04 [::] evennia.commands.cmdhandler.ExecSystemCommand: (<evennia.utils.evmenu.CmdEvMenuNode object at 0x000002A036B15190>, '1')
+20-04-22 13:52:18-04 [::] 
+20-04-22 13:52:18-04 [::] During handling of the above exception, another exception occurred:
+20-04-22 13:52:18-04 [::] 
+20-04-22 13:52:18-04 [::] Traceback (most recent call last):
+20-04-22 13:52:18-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-04-22 13:52:18-04 [::]     ret = cmd.func()
+20-04-22 13:52:18-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 294, in func
+20-04-22 13:52:18-04 [::]     menu.parse_input(self.raw_string)
+20-04-22 13:52:18-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 992, in parse_input
+20-04-22 13:52:18-04 [::]     self.run_exec_then_goto(execfunc, goto, raw_string, exec_kwargs, goto_kwargs)
+20-04-22 13:52:18-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 897, in run_exec_then_goto
+20-04-22 13:52:18-04 [::]     self.goto(goto, raw_string, **(goto_kwargs if goto_kwargs else {}))
+20-04-22 13:52:18-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 812, in goto
+20-04-22 13:52:18-04 [::]     nodetext, options = self._execute_node(nodename, raw_string, **kwargs)
+20-04-22 13:52:18-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 661, in _execute_node
+20-04-22 13:52:18-04 [::]     ret = self._safe_call(node, raw_string, **kwargs)
+20-04-22 13:52:18-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 627, in _safe_call
+20-04-22 13:52:18-04 [::]     ret = callback(self.caller, raw_string)
+20-04-22 13:52:18-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\shop.py", line 52, in menunode_inspect_and_buy
+20-04-22 13:52:18-04 [::]     options = ({"desc": "Buy %s for %s" % \
+20-04-22 13:52:18-04 [::] ValueError: unsupported format character '$' (0x24) at index 12
+20-04-22 13:52:18-04 [::] Traceback (most recent call last):
+20-04-22 13:52:18-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 757, in cmdhandler
+20-04-22 13:52:18-04 [::]     raise ExecSystemCommand(syscmd, sysarg)
+20-04-22 13:52:18-04 [::] evennia.commands.cmdhandler.ExecSystemCommand: (<evennia.utils.evmenu.CmdEvMenuNode object at 0x000002A036B15190>, '1')
+20-04-22 13:52:18-04 [::] 
+20-04-22 13:52:18-04 [::] During handling of the above exception, another exception occurred:
+20-04-22 13:52:18-04 [::] 
+20-04-22 13:52:18-04 [::] Traceback (most recent call last):
+20-04-22 13:52:18-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-04-22 13:52:18-04 [::]     ret = cmd.func()
+20-04-22 13:52:18-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 294, in func
+20-04-22 13:52:18-04 [::]     menu.parse_input(self.raw_string)
+20-04-22 13:52:18-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 992, in parse_input
+20-04-22 13:52:18-04 [::]     self.run_exec_then_goto(execfunc, goto, raw_string, exec_kwargs, goto_kwargs)
+20-04-22 13:52:18-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 897, in run_exec_then_goto
+20-04-22 13:52:18-04 [::]     self.goto(goto, raw_string, **(goto_kwargs if goto_kwargs else {}))
+20-04-22 13:52:18-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 812, in goto
+20-04-22 13:52:18-04 [::]     nodetext, options = self._execute_node(nodename, raw_string, **kwargs)
+20-04-22 13:52:18-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 661, in _execute_node
+20-04-22 13:52:18-04 [::]     ret = self._safe_call(node, raw_string, **kwargs)
+20-04-22 13:52:18-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\evmenu.py", line 627, in _safe_call
+20-04-22 13:52:18-04 [::]     ret = callback(self.caller, raw_string)
+20-04-22 13:52:18-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\shop.py", line 52, in menunode_inspect_and_buy
+20-04-22 13:52:18-04 [::]     options = ({"desc": "Buy %s for %s" % \
+20-04-22 13:52:18-04 [::] ValueError: unsupported format character '$' (0x24) at index 12
+20-04-22 13:52:18-04 [::] 
+20-04-22 13:52:18-04 [::] During handling of the above exception, another exception occurred:
+20-04-22 13:52:18-04 [::] 
+20-04-22 13:52:18-04 [::] Traceback (most recent call last):
+20-04-22 13:52:18-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 787, in cmdhandler
+20-04-22 13:52:18-04 [::]     ret = yield _run_command(
+20-04-22 13:52:18-04 [::] evennia.commands.cmdhandler.ErrorReported: 1
+20-04-22 13:53:58-04 [..] Server disconnected from the portal.
+20-04-22 13:53:58-04 Main loop terminated.
+20-04-22 13:53:58-04 Server Shut Down.
+20-04-22 13:53:58-04 Server Shut Down.
+20-04-22 13:54:03-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-22 13:54:04-04 Loaded.
+20-04-22 13:54:04-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-22 13:54:04-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-22 13:54:04-04 Webserver starting on 4005
+20-04-22 13:54:04-04 Evennia Server successfully started.
+20-04-22 13:55:12-04 [..] Logged in: rafterblue(account 1) 10.0.0.65 (1 session(s) total)
+20-04-22 14:06:41-04 [..] Logged out: rafterblue(account 1) 10.0.0.65 (0 sessions(s) remaining) (quit)
+20-04-22 14:12:08-04 [..] Logged in: rafterblue(account 1) 10.0.0.65 (1 session(s) total)
+20-04-22 14:12:23-04 [..] Server disconnected from the portal.
+20-04-22 14:12:23-04 Main loop terminated.
+20-04-22 14:12:23-04 Server Shut Down.
+20-04-22 14:12:23-04 Server Shut Down.
+20-04-22 14:12:28-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-22 14:12:29-04 Loaded.
+20-04-22 14:12:29-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-22 14:12:29-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-22 14:12:29-04 Webserver starting on 4005
+20-04-22 14:12:29-04 Evennia Server successfully started.
+20-04-22 14:12:33-04 [..] Logged in: rafterblue(account 1) 10.0.0.65 (1 session(s) total)
+20-04-22 14:18:59-04 [..] Server disconnected from the portal.
+20-04-22 14:18:59-04 Main loop terminated.
+20-04-22 14:18:59-04 Server Shut Down.
+20-04-22 14:18:59-04 Server Shut Down.
+20-04-22 14:19:04-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-22 14:19:05-04 Loaded.
+20-04-22 14:19:05-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-22 14:19:05-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-22 14:19:05-04 Webserver starting on 4005
+20-04-22 14:19:05-04 Evennia Server successfully started.
+20-04-22 14:19:11-04 [..] Logged in: rafterblue(account 1) 10.0.0.65 (1 session(s) total)
+20-04-22 14:25:17-04 [::] Traceback (most recent call last):
+20-04-22 14:25:17-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-04-22 14:25:17-04 [::]     ret = cmd.func()
+20-04-22 14:25:17-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\default\building.py", line 577, in func
+20-04-22 14:25:17-04 [::]     obj = create.create_object(
+20-04-22 14:25:17-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\create.py", line 126, in create_object
+20-04-22 14:25:17-04 [::]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+20-04-22 14:25:17-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\utils.py", line 1481, in class_from_module
+20-04-22 14:25:17-04 [::]     raise ImportError("the path '%s' is not on the form modulepath.Classname." % path)
+20-04-22 14:25:17-04 [::] ImportError: the path 'tp' is not on the form modulepath.Classname.
+20-04-22 14:25:17-04 [EE] User input was: 'create toilet paper:tp'.
+20-04-22 14:33:23-04 [..] Logged out: rafterblue(account 1) 10.0.0.65 (0 sessions(s) remaining)
+20-04-22 14:33:33-04 [..] Server disconnected from the portal.
+20-04-22 14:33:33-04 Main loop terminated.
+20-04-22 14:33:33-04 Server Shut Down.
+20-04-22 14:33:33-04 Server Shut Down.
+20-04-22 14:33:38-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-22 14:33:39-04 Loaded.
+20-04-22 14:33:39-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-22 14:33:39-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-22 14:33:39-04 Webserver starting on 4005
+20-04-22 14:33:39-04 Evennia Server successfully started.
+20-04-22 14:34:07-04 [..] Logged in: rafterblue(account 1) 10.0.0.65 (1 session(s) total)
+20-04-22 14:34:22-04 [::] Traceback (most recent call last):
+20-04-22 14:34:22-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-04-22 14:34:22-04 [::]     ret = cmd.func()
+20-04-22 14:34:22-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\default\building.py", line 577, in func
+20-04-22 14:34:22-04 [::]     obj = create.create_object(
+20-04-22 14:34:22-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\create.py", line 126, in create_object
+20-04-22 14:34:22-04 [::]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+20-04-22 14:34:22-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\utils.py", line 1481, in class_from_module
+20-04-22 14:34:22-04 [::]     raise ImportError("the path '%s' is not on the form modulepath.Classname." % path)
+20-04-22 14:34:22-04 [::] ImportError: the path 'tp' is not on the form modulepath.Classname.
+20-04-22 14:34:22-04 [EE] User input was: '@create tp:tp'.
+20-04-22 14:40:02-04 [::] Traceback (most recent call last):
+20-04-22 14:40:02-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-04-22 14:40:02-04 [::]     ret = cmd.func()
+20-04-22 14:40:02-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\default\building.py", line 577, in func
+20-04-22 14:40:02-04 [::]     obj = create.create_object(
+20-04-22 14:40:02-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\create.py", line 126, in create_object
+20-04-22 14:40:02-04 [::]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+20-04-22 14:40:02-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\utils.py", line 1481, in class_from_module
+20-04-22 14:40:02-04 [::]     raise ImportError("the path '%s' is not on the form modulepath.Classname." % path)
+20-04-22 14:40:02-04 [::] ImportError: the path 'new_tp' is not on the form modulepath.Classname.
+20-04-22 14:40:02-04 [EE] User input was: '@create tp:new_tp'.
+20-04-22 14:45:38-04 [::] Traceback (most recent call last):
+20-04-22 14:45:38-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-04-22 14:45:38-04 [::]     ret = cmd.func()
+20-04-22 14:45:38-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\default\building.py", line 577, in func
+20-04-22 14:45:38-04 [::]     obj = create.create_object(
+20-04-22 14:45:38-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\create.py", line 126, in create_object
+20-04-22 14:45:38-04 [::]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+20-04-22 14:45:38-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\utils.py", line 1490, in class_from_module
+20-04-22 14:45:38-04 [::]     mod = importlib.import_module(testpath, package="evennia")
+20-04-22 14:45:38-04 [::]   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.752.0_x64__qbz5n2kfra8p0\lib\importlib\__init__.py", line 127, in import_module
+20-04-22 14:45:38-04 [::]     return _bootstrap._gcd_import(name[level:], package, level)
+20-04-22 14:45:38-04 [::]   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+20-04-22 14:45:38-04 [::]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+20-04-22 14:45:38-04 [::]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+20-04-22 14:45:38-04 [::]   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+20-04-22 14:45:38-04 [::]   File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+20-04-22 14:45:38-04 [::]   File "<frozen importlib._bootstrap_external>", line 916, in get_code
+20-04-22 14:45:38-04 [::]   File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+20-04-22 14:45:38-04 [::]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+20-04-22 14:45:38-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\tp.py", line 3
+20-04-22 14:45:38-04 [::]     class TP(Object):
+20-04-22 14:45:38-04 [::]     ^
+20-04-22 14:45:38-04 [::] IndentationError: unexpected indent
+20-04-22 14:45:38-04 [EE] User input was: '@create tp:tp.Tp'.
+20-04-22 14:46:09-04 [::] Traceback (most recent call last):
+20-04-22 14:46:09-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-04-22 14:46:09-04 [::]     ret = cmd.func()
+20-04-22 14:46:09-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\default\building.py", line 577, in func
+20-04-22 14:46:09-04 [::]     obj = create.create_object(
+20-04-22 14:46:09-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\create.py", line 126, in create_object
+20-04-22 14:46:09-04 [::]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+20-04-22 14:46:09-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\utils.py", line 1490, in class_from_module
+20-04-22 14:46:09-04 [::]     mod = importlib.import_module(testpath, package="evennia")
+20-04-22 14:46:09-04 [::]   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.752.0_x64__qbz5n2kfra8p0\lib\importlib\__init__.py", line 127, in import_module
+20-04-22 14:46:09-04 [::]     return _bootstrap._gcd_import(name[level:], package, level)
+20-04-22 14:46:09-04 [::]   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+20-04-22 14:46:09-04 [::]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+20-04-22 14:46:09-04 [::]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+20-04-22 14:46:09-04 [::]   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+20-04-22 14:46:09-04 [::]   File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+20-04-22 14:46:09-04 [::]   File "<frozen importlib._bootstrap_external>", line 916, in get_code
+20-04-22 14:46:09-04 [::]   File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+20-04-22 14:46:09-04 [::]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+20-04-22 14:46:09-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\tp.py", line 4
+20-04-22 14:46:09-04 [::]     def at_object_creation(self)
+20-04-22 14:46:09-04 [::]                                ^
+20-04-22 14:46:09-04 [::] SyntaxError: invalid syntax
+20-04-22 14:46:09-04 [EE] User input was: '@create tp:tp.Tp'.
+20-04-22 14:46:59-04 [::] Traceback (most recent call last):
+20-04-22 14:46:59-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-04-22 14:46:59-04 [::]     ret = cmd.func()
+20-04-22 14:46:59-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\default\building.py", line 577, in func
+20-04-22 14:46:59-04 [::]     obj = create.create_object(
+20-04-22 14:46:59-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\create.py", line 126, in create_object
+20-04-22 14:46:59-04 [::]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+20-04-22 14:46:59-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\utils.py", line 1490, in class_from_module
+20-04-22 14:46:59-04 [::]     mod = importlib.import_module(testpath, package="evennia")
+20-04-22 14:46:59-04 [::]   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.752.0_x64__qbz5n2kfra8p0\lib\importlib\__init__.py", line 127, in import_module
+20-04-22 14:46:59-04 [::]     return _bootstrap._gcd_import(name[level:], package, level)
+20-04-22 14:46:59-04 [::]   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+20-04-22 14:46:59-04 [::]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+20-04-22 14:46:59-04 [::]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+20-04-22 14:46:59-04 [::]   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+20-04-22 14:46:59-04 [::]   File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+20-04-22 14:46:59-04 [::]   File "<frozen importlib._bootstrap_external>", line 916, in get_code
+20-04-22 14:46:59-04 [::]   File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+20-04-22 14:46:59-04 [::]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+20-04-22 14:46:59-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\tp.py", line 3
+20-04-22 14:46:59-04 [::]     class TP(Object):
+20-04-22 14:46:59-04 [::]     ^
+20-04-22 14:46:59-04 [::] IndentationError: unexpected indent
+20-04-22 14:46:59-04 [EE] User input was: '@create tp:tp.Tp'.
+20-04-22 14:47:16-04 [::] Traceback (most recent call last):
+20-04-22 14:47:16-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-04-22 14:47:16-04 [::]     ret = cmd.func()
+20-04-22 14:47:16-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\default\building.py", line 577, in func
+20-04-22 14:47:16-04 [::]     obj = create.create_object(
+20-04-22 14:47:16-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\create.py", line 126, in create_object
+20-04-22 14:47:16-04 [::]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+20-04-22 14:47:16-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\utils.py", line 1490, in class_from_module
+20-04-22 14:47:16-04 [::]     mod = importlib.import_module(testpath, package="evennia")
+20-04-22 14:47:16-04 [::]   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.752.0_x64__qbz5n2kfra8p0\lib\importlib\__init__.py", line 127, in import_module
+20-04-22 14:47:16-04 [::]     return _bootstrap._gcd_import(name[level:], package, level)
+20-04-22 14:47:16-04 [::]   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+20-04-22 14:47:16-04 [::]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+20-04-22 14:47:16-04 [::]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+20-04-22 14:47:16-04 [::]   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+20-04-22 14:47:16-04 [::]   File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+20-04-22 14:47:16-04 [::]   File "<frozen importlib._bootstrap_external>", line 916, in get_code
+20-04-22 14:47:16-04 [::]   File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+20-04-22 14:47:16-04 [::]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+20-04-22 14:47:16-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\tp.py", line 3
+20-04-22 14:47:16-04 [::]     class TP(Object):
+20-04-22 14:47:16-04 [::]     ^
+20-04-22 14:47:16-04 [::] IndentationError: unexpected indent
+20-04-22 14:47:16-04 [EE] User input was: '@create tp:tp.TP'.
+20-04-22 14:47:49-04 [::] Traceback (most recent call last):
+20-04-22 14:47:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-04-22 14:47:49-04 [::]     ret = cmd.func()
+20-04-22 14:47:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\default\building.py", line 577, in func
+20-04-22 14:47:49-04 [::]     obj = create.create_object(
+20-04-22 14:47:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\create.py", line 126, in create_object
+20-04-22 14:47:49-04 [::]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+20-04-22 14:47:49-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\utils.py", line 1490, in class_from_module
+20-04-22 14:47:49-04 [::]     mod = importlib.import_module(testpath, package="evennia")
+20-04-22 14:47:49-04 [::]   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.752.0_x64__qbz5n2kfra8p0\lib\importlib\__init__.py", line 127, in import_module
+20-04-22 14:47:49-04 [::]     return _bootstrap._gcd_import(name[level:], package, level)
+20-04-22 14:47:49-04 [::]   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+20-04-22 14:47:49-04 [::]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+20-04-22 14:47:49-04 [::]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+20-04-22 14:47:49-04 [::]   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+20-04-22 14:47:49-04 [::]   File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+20-04-22 14:47:49-04 [::]   File "<frozen importlib._bootstrap_external>", line 916, in get_code
+20-04-22 14:47:49-04 [::]   File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+20-04-22 14:47:49-04 [::]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+20-04-22 14:47:49-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\tp.py", line 10
+20-04-22 14:47:49-04 [::]     new_tp = create_object("typeclasses.tp.TP", key="tp")
+20-04-22 14:47:49-04 [::]     ^
+20-04-22 14:47:49-04 [::] IndentationError: unexpected indent
+20-04-22 14:47:49-04 [EE] User input was: '@create tp:tp.Tp'.
+20-04-22 14:50:02-04 [..] Logged out: rafterblue(account 1) 10.0.0.65 (0 sessions(s) remaining) (quit)
+20-04-22 14:50:05-04 [..] Logged in: rafterblue(account 1) 10.0.0.65 (1 session(s) total)
+20-04-23 19:08:33-04 [..] Logged out: rafterblue(account 1) 10.0.0.65 (0 sessions(s) remaining)
+20-04-23 19:08:33-04 [..] Logged in: rafterblue(account 1) 10.0.0.65 (1 session(s) total)
+20-04-23 19:09:16-04 [..] Logged out: rafterblue(account 1) 10.0.0.65 (0 sessions(s) remaining)
+20-04-23 19:09:33-04 [..] Logged in: rafterblue(account 1) 10.0.0.65 (1 session(s) total)
+20-04-23 19:12:51-04 [::] Traceback (most recent call last):
+20-04-23 19:12:51-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-04-23 19:12:51-04 [::]     ret = cmd.func()
+20-04-23 19:12:51-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\default\building.py", line 577, in func
+20-04-23 19:12:51-04 [::]     obj = create.create_object(
+20-04-23 19:12:51-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\create.py", line 126, in create_object
+20-04-23 19:12:51-04 [::]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+20-04-23 19:12:51-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\utils.py", line 1481, in class_from_module
+20-04-23 19:12:51-04 [::]     raise ImportError("the path '%s' is not on the form modulepath.Classname." % path)
+20-04-23 19:12:51-04 [::] ImportError: the path 'TP' is not on the form modulepath.Classname.
+20-04-23 19:12:51-04 [EE] User input was: '@create Toilet Paper:tp:TP'.
+20-04-23 19:13:58-04 [..] Logged out: rafterblue(account 1) 10.0.0.65 (0 sessions(s) remaining)
+20-04-23 19:20:37-04 [..] Logged in: rafterblue(account 1) 10.0.0.65 (1 session(s) total)
+20-04-23 19:22:36-04 [..] Logged in: test(account 6) 127.0.0.1 (1 session(s) total)
+20-04-23 19:25:20-04 [..] Logged out: test(account 6) 127.0.0.1 (0 sessions(s) remaining)
+20-04-23 19:59:56-04 [..] Server disconnected from the portal.
+20-04-23 19:59:56-04 Main loop terminated.
+20-04-23 19:59:56-04 Server Shut Down.
+20-04-23 19:59:56-04 Server Shut Down.
+20-04-23 20:00:17-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-23 20:00:19-04 Loaded.
+20-04-23 20:00:19-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-23 20:00:19-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-23 20:00:19-04 Webserver starting on 4005
+20-04-23 20:00:19-04 Evennia Server successfully started.
+20-04-23 20:00:29-04 [..] Successfully sent game details to Evennia Game Index.
+20-04-23 20:18:37-04 [..] Server disconnected from the portal.
+20-04-23 20:18:37-04 Main loop terminated.
+20-04-23 20:18:37-04 Server Shut Down.
+20-04-23 20:18:37-04 Server Shut Down.
+20-04-23 20:18:55-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-23 20:18:57-04 Loaded.
+20-04-23 20:18:57-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-23 20:18:57-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-23 20:18:57-04 Webserver starting on 4005
+20-04-23 20:18:57-04 Evennia Server successfully started.
+20-04-23 20:19:15-04 [..] Successfully sent game details to Evennia Game Index.
+20-04-23 20:24:58-04 [SS] Authentication Failure: test1 (IP: 10.0.0.67).
+20-04-23 20:25:13-04 [SS] Authentication Success: test1(account 2) (IP: 10.0.0.67).
+20-04-23 20:25:13-04 [..] Logged in: test1(account 2) 10.0.0.67 (1 session(s) total)
+20-04-23 20:25:53-04 [..] Logged out: test1(account 2) 10.0.0.67 (0 sessions(s) remaining)
+20-04-23 20:26:04-04 [..] Logged in: test1(account 2) 10.0.0.67 (1 session(s) total)
+20-04-23 20:26:07-04 [..] Logged out: test1(account 2) 10.0.0.67 (0 sessions(s) remaining) (quit)
+20-04-23 20:37:57-04 [..] Server disconnected from the portal.
+20-04-23 20:37:57-04 Main loop terminated.
+20-04-23 20:37:57-04 Server Shut Down.
+20-04-23 20:37:57-04 Server Shut Down.
+20-04-23 20:37:58-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-23 20:38:00-04 Loaded.
+20-04-23 20:38:00-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-23 20:38:00-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-23 20:38:00-04 Webserver starting on 4005
+20-04-23 20:38:00-04 Server successfully reloaded.
+20-04-23 20:38:10-04 [..] Successfully sent game details to Evennia Game Index.
+20-04-23 20:41:41-04 [..] Server disconnected from the portal.
+20-04-23 20:41:41-04 Main loop terminated.
+20-04-23 20:41:41-04 Server Shut Down.
+20-04-23 20:41:41-04 Server Shut Down.
+20-04-23 20:41:46-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-23 20:41:47-04 Loaded.
+20-04-23 20:41:47-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-23 20:41:47-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-23 20:41:47-04 Webserver starting on 4005
+20-04-23 20:41:47-04 Evennia Server successfully started.
+20-04-23 20:41:58-04 [..] Successfully sent game details to Evennia Game Index.
+20-04-23 20:41:58-04 [..] Server disconnected from the portal.
+20-04-23 20:41:58-04 Main loop terminated.
+20-04-23 20:41:58-04 Server Shut Down.
+20-04-23 20:41:58-04 Server Shut Down.
+20-04-23 20:42:18-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-23 20:42:19-04 Loaded.
+20-04-23 20:42:19-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-23 20:42:19-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-23 20:42:19-04 Webserver starting on 4005
+20-04-23 20:42:19-04 Evennia Server successfully started.
+20-04-23 20:42:29-04 [..] Successfully sent game details to Evennia Game Index.
+20-04-23 21:29:51-04 [..] Server disconnected from the portal.
+20-04-23 21:29:51-04 Main loop terminated.
+20-04-23 21:29:51-04 Server Shut Down.
+20-04-23 21:29:51-04 Server Shut Down.
+20-04-23 22:33:42-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-23 22:33:43-04 Loaded.
+20-04-23 22:33:43-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-23 22:33:43-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-23 22:33:43-04 Webserver starting on 4001
+20-04-23 22:33:43-04 Evennia Server successfully started.
+20-04-23 22:33:54-04 Unhandled error in Deferred:
+20-04-23 22:33:54-04 Unhandled Error
+	Traceback (most recent call last):
+	--- <exception caught here> ---
+	  File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\game_index_client\client.py", line 56, in send_game_details
+	    status_code, response_body = yield self._form_and_send_request()
+	twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+	
+20-04-23 22:33:54-04 [..] Server disconnected from the portal.
+20-04-23 22:33:54-04 Main loop terminated.
+20-04-23 22:33:54-04 Server Shut Down.
+20-04-23 22:33:54-04 Server Shut Down.
+20-04-23 23:15:15-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-23 23:15:16-04 Loaded.
+20-04-23 23:15:16-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-23 23:15:16-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-23 23:15:16-04 Webserver starting on 4001
+20-04-23 23:15:16-04 Evennia Server successfully started.
+20-04-23 23:15:26-04 [..] Successfully sent game details to Evennia Game Index.
+20-04-23 23:15:47-04 [..] Server disconnected from the portal.
+20-04-23 23:15:47-04 Main loop terminated.
+20-04-23 23:15:47-04 Server Shut Down.
+20-04-23 23:15:47-04 Server Shut Down.
+20-04-23 23:15:55-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-23 23:15:56-04 Loaded.
+20-04-23 23:15:56-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-23 23:15:56-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-23 23:15:56-04 Webserver starting on 4001
+20-04-23 23:15:57-04 Evennia Server successfully started.
+20-04-23 23:16:07-04 [..] Successfully sent game details to Evennia Game Index.
+20-04-24 14:07:37-04 Unhandled error in Deferred:
+20-04-24 14:07:37-04 Unhandled Error
+	Traceback (most recent call last):
+	  File "C:\Users\mtaya\OneDrive\UMD\Spring 2020\INST 490\evennia\evenv\Lib\site-packages\twisted\internet\defer.py", line 460, in callback
+	    self._startRunCallbacks(result)
+	  File "C:\Users\mtaya\OneDrive\UMD\Spring 2020\INST 490\evennia\evenv\Lib\site-packages\twisted\internet\defer.py", line 568, in _startRunCallbacks
+	    self._runCallbacks()
+	  File "C:\Users\mtaya\OneDrive\UMD\Spring 2020\INST 490\evennia\evenv\Lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "C:\Users\mtaya\OneDrive\UMD\Spring 2020\INST 490\evennia\evenv\Lib\site-packages\twisted\internet\defer.py", line 1475, in gotResult
+	    _inlineCallbacks(r, g, status)
+	--- <exception caught here> ---
+	  File "C:\Users\mtaya\OneDrive\UMD\Spring 2020\INST 490\evennia\evenv\Lib\site-packages\twisted\internet\defer.py", line 1416, in _inlineCallbacks
+	    result = result.throwExceptionIntoGenerator(g)
+	  File "C:\Users\mtaya\OneDrive\UMD\Spring 2020\INST 490\evennia\evenv\Lib\site-packages\twisted\python\failure.py", line 512, in throwExceptionIntoGenerator
+	    return g.throw(self.type, self.value, self.tb)
+	  File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\game_index_client\client.py", line 56, in send_game_details
+	    status_code, response_body = yield self._form_and_send_request()
+	  File "C:\Users\mtaya\OneDrive\UMD\Spring 2020\INST 490\evennia\evenv\Lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+	    current.result = callback(current.result, *args, **kw)
+	  File "C:\Users\mtaya\OneDrive\UMD\Spring 2020\INST 490\evennia\evenv\Lib\site-packages\twisted\internet\endpoints.py", line 981, in startConnectionAttempts
+	    raise error.DNSLookupError(
+	twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: evennia-game-index.appspot.com.
+	
+20-04-25 00:07:07-04 [..] Server disconnected from the portal.
+20-04-25 00:07:07-04 Main loop terminated.
+20-04-25 00:07:07-04 Server Shut Down.
+20-04-25 00:07:07-04 Server Shut Down.
+20-04-30 18:21:41-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-30 18:21:42-04 Loaded.
+20-04-30 18:21:42-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-30 18:21:42-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-30 18:21:42-04 Webserver starting on 4001
+20-04-30 18:21:42-04 Evennia Server successfully started.
+20-04-30 18:21:53-04 [..] Successfully sent game details to Evennia Game Index.
+20-04-30 18:53:26-04 [..] Server disconnected from the portal.
+20-04-30 18:53:26-04 Main loop terminated.
+20-04-30 18:53:26-04 Server Shut Down.
+20-04-30 18:53:26-04 Server Shut Down.
+20-04-30 18:53:33-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-30 18:53:34-04 Loaded.
+20-04-30 18:53:34-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-30 18:53:34-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-30 18:53:34-04 Webserver starting on 4001
+20-04-30 18:53:34-04 Evennia Server successfully started.
+20-04-30 18:53:44-04 [..] Successfully sent game details to Evennia Game Index.
+20-04-30 18:54:54-04 Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=57920)
+20-04-30 18:54:54-04 Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=57919)
+20-04-30 18:54:54-04 Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=57925)
+20-04-30 18:54:54-04 Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=57923)
+20-04-30 18:54:54-04 Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=57924)
+20-04-30 18:55:03-04 Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=57921)
+20-04-30 19:02:22-04 [..] Server disconnected from the portal.
+20-04-30 19:02:22-04 Main loop terminated.
+20-04-30 19:02:22-04 Server Shut Down.
+20-04-30 19:02:22-04 Server Shut Down.
+20-04-30 19:02:35-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-30 19:02:36-04 Loaded.
+20-04-30 19:02:36-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-30 19:02:36-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-30 19:02:36-04 Webserver starting on 4001
+20-04-30 19:02:36-04 Evennia Server successfully started.
+20-04-30 19:02:46-04 [..] Successfully sent game details to Evennia Game Index.
+20-04-30 19:03:39-04 [..] Server disconnected from the portal.
+20-04-30 19:03:39-04 Main loop terminated.
+20-04-30 19:03:39-04 Server Shut Down.
+20-04-30 19:03:39-04 Server Shut Down.
+20-04-30 19:03:39-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-30 19:03:41-04 Loaded.
+20-04-30 19:03:41-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-30 19:03:41-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-30 19:03:41-04 Webserver starting on 4001
+20-04-30 19:03:41-04 Server successfully reloaded.
+20-04-30 19:03:48-04 [..] Server disconnected from the portal.
+20-04-30 19:03:48-04 Main loop terminated.
+20-04-30 19:03:48-04 Server Shut Down.
+20-04-30 19:03:48-04 Server Shut Down.
+20-04-30 19:03:53-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-30 19:03:54-04 Loaded.
+20-04-30 19:03:54-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-30 19:03:54-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-30 19:03:54-04 Webserver starting on 4001
+20-04-30 19:03:54-04 Evennia Server successfully started.
+20-04-30 19:04:05-04 [..] Successfully sent game details to Evennia Game Index.
+20-04-30 19:04:43-04 [..] Server disconnected from the portal.
+20-04-30 19:04:43-04 Main loop terminated.
+20-04-30 19:04:43-04 Server Shut Down.
+20-04-30 19:04:43-04 Server Shut Down.
+20-04-30 19:04:48-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-30 19:04:49-04 Loaded.
+20-04-30 19:04:49-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-30 19:04:49-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-30 19:04:49-04 Webserver starting on 4005
+20-04-30 19:04:49-04 Evennia Server successfully started.
+20-04-30 19:05:00-04 [..] Successfully sent game details to Evennia Game Index.
+20-04-30 19:09:29-04 [..] Server disconnected from the portal.
+20-04-30 19:09:29-04 Main loop terminated.
+20-04-30 19:09:29-04 Server Shut Down.
+20-04-30 19:09:29-04 Server Shut Down.
+20-04-30 19:09:34-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-30 19:09:35-04 Loaded.
+20-04-30 19:09:35-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-30 19:09:35-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-30 19:09:35-04 Webserver starting on 4005
+20-04-30 19:09:35-04 Evennia Server successfully started.
+20-04-30 19:09:45-04 [..] Successfully sent game details to Evennia Game Index.
+20-04-30 19:12:45-04 [..] Server disconnected from the portal.
+20-04-30 19:12:45-04 Main loop terminated.
+20-04-30 19:12:45-04 Server Shut Down.
+20-04-30 19:12:45-04 Server Shut Down.
+20-04-30 19:12:50-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-30 19:12:51-04 Loaded.
+20-04-30 19:12:51-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-30 19:12:51-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-30 19:12:51-04 Webserver starting on 4005
+20-04-30 19:12:51-04 Evennia Server successfully started.
+20-04-30 19:13:01-04 [..] Successfully sent game details to Evennia Game Index.
+20-04-30 19:13:07-04 [..] Logged in: rafterblue(account 1) 127.0.0.1 (1 session(s) total)
+20-04-30 19:13:39-04 [..] Server disconnected from the portal.
+20-04-30 19:13:39-04 Main loop terminated.
+20-04-30 19:13:39-04 Server Shut Down.
+20-04-30 19:13:39-04 Server Shut Down.
+20-04-30 19:13:44-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-30 19:13:46-04 Loaded.
+20-04-30 19:13:46-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-30 19:13:46-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-30 19:13:46-04 Webserver starting on 4005
+20-04-30 19:13:46-04 Evennia Server successfully started.
+20-04-30 19:13:56-04 [..] Successfully sent game details to Evennia Game Index.
+20-04-30 19:14:27-04 [..] Server disconnected from the portal.
+20-04-30 19:14:27-04 Main loop terminated.
+20-04-30 19:14:27-04 Server Shut Down.
+20-04-30 19:14:27-04 Server Shut Down.
+20-04-30 19:14:32-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-30 19:14:33-04 Loaded.
+20-04-30 19:14:33-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-30 19:14:33-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-30 19:14:33-04 Webserver starting on 4005
+20-04-30 19:14:33-04 Evennia Server successfully started.
+20-04-30 19:14:36-04 [..] Logged in: rafterblue(account 1) 127.0.0.1 (1 session(s) total)
+20-04-30 19:14:43-04 [..] Successfully sent game details to Evennia Game Index.
+20-04-30 19:58:53-04 [..] Server disconnected from the portal.
+20-04-30 19:58:53-04 Main loop terminated.
+20-04-30 19:58:53-04 Server Shut Down.
+20-04-30 19:58:53-04 Server Shut Down.
+20-04-30 19:59:00-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-30 19:59:02-04 Loaded.
+20-04-30 19:59:02-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-30 19:59:02-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-30 19:59:02-04 Webserver starting on 4005
+20-04-30 19:59:02-04 Evennia Server successfully started.
+20-04-30 19:59:07-04 [..] Logged in: rafterblue(account 1) 127.0.0.1 (1 session(s) total)
+20-04-30 19:59:12-04 [..] Successfully sent game details to Evennia Game Index.
+20-04-30 20:14:34-04 [..] Server disconnected from the portal.
+20-04-30 20:14:34-04 Main loop terminated.
+20-04-30 20:14:34-04 Server Shut Down.
+20-04-30 20:14:34-04 Server Shut Down.
+20-04-30 20:14:40-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-30 20:14:42-04 Loaded.
+20-04-30 20:14:42-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-30 20:14:42-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-30 20:14:42-04 Webserver starting on 4005
+20-04-30 20:14:42-04 Evennia Server successfully started.
+20-04-30 20:14:53-04 [..] Successfully sent game details to Evennia Game Index.
+20-04-30 20:14:56-04 [..] Logged in: rafterblue(account 1) 127.0.0.1 (1 session(s) total)
+20-04-30 20:15:10-04 [::] Traceback (most recent call last):
+20-04-30 20:15:10-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-04-30 20:15:10-04 [::]     ret = cmd.func()
+20-04-30 20:15:10-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\commands\default\building.py", line 577, in func
+20-04-30 20:15:10-04 [::]     obj = create.create_object(
+20-04-30 20:15:10-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\create.py", line 126, in create_object
+20-04-30 20:15:10-04 [::]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+20-04-30 20:15:10-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\utils.py", line 1511, in class_from_module
+20-04-30 20:15:10-04 [::]     raise ImportError(err)
+20-04-30 20:15:10-04 [::] ImportError: 
+20-04-30 20:15:10-04 [::] Could not load typeclass 'object.Food'
+20-04-30 20:15:10-04 [::] Paths searched:
+20-04-30 20:15:10-04 [::]     object.Food
+20-04-30 20:15:10-04 [::]     typeclasses.object.Food
+20-04-30 20:15:10-04 [::]     evennia.object.Food
+20-04-30 20:15:10-04 [::]     evennia.contrib.object.Food
+20-04-30 20:15:10-04 [::]     evennia.contrib.tutorial_examples.object.Food
+20-04-30 20:15:10-04 [EE] User input was: '@create Food:object.Food'.
+20-04-30 20:15:40-04 [::] Traceback (most recent call last):
+20-04-30 20:15:40-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\typeclasses\models.py", line 243, in set_class_from_typeclass
+20-04-30 20:15:40-04 [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+20-04-30 20:15:40-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\utils.py", line 1490, in class_from_module
+20-04-30 20:15:40-04 [::]     mod = importlib.import_module(testpath, package="evennia")
+20-04-30 20:15:40-04 [::]   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.752.0_x64__qbz5n2kfra8p0\lib\importlib\__init__.py", line 127, in import_module
+20-04-30 20:15:40-04 [::]     return _bootstrap._gcd_import(name[level:], package, level)
+20-04-30 20:15:40-04 [::]   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+20-04-30 20:15:40-04 [::]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+20-04-30 20:15:40-04 [::]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+20-04-30 20:15:40-04 [::]   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+20-04-30 20:15:40-04 [::]   File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+20-04-30 20:15:40-04 [::]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+20-04-30 20:15:40-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\tp.py", line 3, in <module>
+20-04-30 20:15:40-04 [::]     class TP(Object):
+20-04-30 20:15:40-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\typeclasses\models.py", line 117, in __new__
+20-04-30 20:15:40-04 [::]     new_class = ModelBase.__new__(cls, name, bases, attrs)
+20-04-30 20:15:40-04 [::]   File "C:\Users\mtaya\OneDrive\UMD\Spring 2020\INST 490\evennia\evenv\Lib\site-packages\django\db\models\base.py", line 316, in __new__
+20-04-30 20:15:40-04 [::]     new_class._meta.apps.register_model(new_class._meta.app_label, new_class)
+20-04-30 20:15:40-04 [::]   File "C:\Users\mtaya\OneDrive\UMD\Spring 2020\INST 490\evennia\evenv\Lib\site-packages\django\apps\registry.py", line 227, in register_model
+20-04-30 20:15:40-04 [::]     raise RuntimeError(
+20-04-30 20:15:40-04 [::] RuntimeError: Conflicting 'tp' models in application 'typeclasses': <class 'typeclasses.objects.TP'> and <class 'typeclasses.tp.TP'>.
+20-04-30 20:15:40-04 [::] Traceback (most recent call last):
+20-04-30 20:15:40-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\typeclasses\models.py", line 243, in set_class_from_typeclass
+20-04-30 20:15:40-04 [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+20-04-30 20:15:40-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\utils.py", line 1490, in class_from_module
+20-04-30 20:15:40-04 [::]     mod = importlib.import_module(testpath, package="evennia")
+20-04-30 20:15:40-04 [::]   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.752.0_x64__qbz5n2kfra8p0\lib\importlib\__init__.py", line 127, in import_module
+20-04-30 20:15:40-04 [::]     return _bootstrap._gcd_import(name[level:], package, level)
+20-04-30 20:15:40-04 [::]   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+20-04-30 20:15:40-04 [::]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+20-04-30 20:15:40-04 [::]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+20-04-30 20:15:40-04 [::]   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+20-04-30 20:15:40-04 [::]   File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+20-04-30 20:15:40-04 [::]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+20-04-30 20:15:40-04 [::]   File "C:\Users\mtaya\Documents\GitHub\inst490-group-e\evennia\inst490-game\typeclasses\hand_sanitizer.py", line 3, in <module>
+20-04-30 20:15:40-04 [::]     class Hand_Sanitizer(Object):
+20-04-30 20:15:40-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\typeclasses\models.py", line 117, in __new__
+20-04-30 20:15:40-04 [::]     new_class = ModelBase.__new__(cls, name, bases, attrs)
+20-04-30 20:15:40-04 [::]   File "C:\Users\mtaya\OneDrive\UMD\Spring 2020\INST 490\evennia\evenv\Lib\site-packages\django\db\models\base.py", line 316, in __new__
+20-04-30 20:15:40-04 [::]     new_class._meta.apps.register_model(new_class._meta.app_label, new_class)
+20-04-30 20:15:40-04 [::]   File "C:\Users\mtaya\OneDrive\UMD\Spring 2020\INST 490\evennia\evenv\Lib\site-packages\django\apps\registry.py", line 227, in register_model
+20-04-30 20:15:40-04 [::]     raise RuntimeError(
+20-04-30 20:15:40-04 [::] RuntimeError: Conflicting 'hand_sanitizer' models in application 'typeclasses': <class 'typeclasses.objects.Hand_Sanitizer'> and <class 'typeclasses.hand_sanitizer.Hand_Sanitizer'>.
+20-04-30 20:21:43-04 [..] Server disconnected from the portal.
+20-04-30 20:21:43-04 Main loop terminated.
+20-04-30 20:21:43-04 Server Shut Down.
+20-04-30 20:21:43-04 Server Shut Down.
+20-04-30 20:21:48-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-30 20:21:50-04 Loaded.
+20-04-30 20:21:50-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-30 20:21:50-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-30 20:21:50-04 Webserver starting on 4005
+20-04-30 20:21:50-04 Evennia Server successfully started.
+20-04-30 20:22:00-04 [..] Successfully sent game details to Evennia Game Index.
+20-04-30 20:24:21-04 [..] Server disconnected from the portal.
+20-04-30 20:24:21-04 Main loop terminated.
+20-04-30 20:24:21-04 Server Shut Down.
+20-04-30 20:24:21-04 Server Shut Down.
+20-04-30 20:24:26-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-04-30 20:24:28-04 Loaded.
+20-04-30 20:24:28-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-04-30 20:24:28-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-04-30 20:24:28-04 Webserver starting on 4005
+20-04-30 20:24:28-04 Evennia Server successfully started.
+20-04-30 20:24:37-04 [..] Logged in: rafterblue(account 1) 127.0.0.1 (1 session(s) total)
+20-04-30 20:24:38-04 [..] Successfully sent game details to Evennia Game Index.
+20-04-30 20:24:43-04 [::] Traceback (most recent call last):
+20-04-30 20:24:43-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\typeclasses\models.py", line 243, in set_class_from_typeclass
+20-04-30 20:24:43-04 [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+20-04-30 20:24:43-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\utils.py", line 1511, in class_from_module
+20-04-30 20:24:43-04 [::]     raise ImportError(err)
+20-04-30 20:24:43-04 [::] ImportError: 
+20-04-30 20:24:43-04 [::] Could not load typeclass 'typeclasses.tp.TP'.
+20-04-30 20:24:43-04 [::] Traceback (most recent call last):
+20-04-30 20:24:43-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\typeclasses\models.py", line 243, in set_class_from_typeclass
+20-04-30 20:24:43-04 [::]     self.__class__ = class_from_module(self.db_typeclass_path)
+20-04-30 20:24:43-04 [::]   File "c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\utils\utils.py", line 1511, in class_from_module
+20-04-30 20:24:43-04 [::]     raise ImportError(err)
+20-04-30 20:24:43-04 [::] ImportError: 
+20-04-30 20:24:43-04 [::] Could not load typeclass 'typeclasses.hand_sanitizer.Hand_Sanitizer'.
+Another twistd server is running, PID 10649
+
+This could either be a previously started instance of your application or a
+different application entirely. To start a new one, either run it in some other
+directory, or use the --pidfile and --logfile parameters to avoid clashes.
+
+20-05-05 04:56:31-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-05-05 04:56:32-04 Loaded.
+20-05-05 04:56:32-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-05-05 04:56:32-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-05-05 04:56:32-04 Webserver starting on 4005
+20-05-05 04:56:32-04 Evennia Server successfully started.
+20-05-05 04:56:39-04 [..] Server disconnected from the portal.
+20-05-05 04:56:39-04 Main loop terminated.
+20-05-05 04:56:39-04 Server Shut Down.
+20-05-05 04:56:39-04 Server Shut Down.
+20-05-05 04:56:54-04 Loading c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evennia\evennia\server\server.py...
+20-05-05 04:56:55-04 Loaded.
+20-05-05 04:56:55-04 twistd 19.10.0 (c:\users\mtaya\onedrive\umd\spring 2020\inst 490\evennia\evenv\scripts\python.exe 3.8.2) starting up.
+20-05-05 04:56:55-04 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-05-05 04:56:55-04 Webserver starting on 4005
+20-05-05 04:56:55-04 Evennia Server successfully started.
+20-05-05 04:57:05-04 [..] Successfully sent game details to Evennia Game Index.
