@@ -25,6 +25,25 @@ def menunode_shopfront(caller):
                         "goto": "menunode_inspect_and_buy"})
     return text, options
 
+def menunode_buy_ware_result(caller, raw_string):
+    "This will be executed first when choosing to buy."
+    try:
+        int(raw_string)
+    except Exception as e:
+        return None
+    if not raw_string.strip():
+        return "menunode_shopfront"
+    elif wealth >= value:
+        rtext = "You pay %i and purchase %s!" % \
+                     (value * int(raw_string), ware.key)
+        caller.db.inventory["Budget"] -= value * int(raw_string)
+        caller.db.inventory[ware.key] += int(raw_string)
+    else:
+        rtext = "You cannot afford %i for %s!" % \
+                      (value, ware.key)
+    caller.msg(rtext)
+    return "menunode_shopfront"
+
 def menunode_inspect_and_buy(caller, raw_string):
     "Sets up the buy menu screen."
 
@@ -37,24 +56,6 @@ def menunode_inspect_and_buy(caller, raw_string):
     inventory = caller.get_inventory()
     wealth = inventory["Budget"] or 0
     text = "Enter amount or <return> to go back"
-
-    def menunode_buy_ware_result(caller, raw_string):
-        "This will be executed first when choosing to buy."
-        try:
-            int(raw_string)
-        except Exception as e:
-            return None
-        if not raw_string.strip():
-            return True
-        elif wealth >= value:
-            rtext = "You pay %i and purchase %s!" % \
-                         (value * int(raw_string), ware.key)
-            caller.db.inventory["Budget"] -= value * int(raw_string)
-            caller.db.inventory[ware.key] += int(raw_string)
-        else:
-            rtext = "You cannot afford %i for %s!" % \
-                          (value, ware.key)
-        caller.msg(rtext)
 
     options = ({"key": "_default",
                 "goto": "menunode_buy_ware_result"})
