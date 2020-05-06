@@ -20,10 +20,10 @@ __pycache__
 
 # Other
 *.swp
-*.log
+
 *.pid
 *.restart
-*.db3
+
 
 # Installation-specific.
 # For group efforts, comment out some or all of these.
