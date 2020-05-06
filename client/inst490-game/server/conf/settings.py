@@ -34,7 +34,6 @@ from evennia.settings_default import *
 # This is the name of your game. Make it catchy!
 SERVERNAME = "inst490-game"
 
-
 ######################################################################
 # Settings given in secret_settings.py override those in this file.
 ######################################################################
@@ -47,7 +46,7 @@ except ImportError:
 # closed to the internet (internal use): 4005, 4006
 TELNET_PORTS = [4000]
 WEBSOCKET_CLIENT_PORT = 4002
-WEBSERVER_PORTS = [(80,4005)]
+WEBSERVER_PORTS = [(80, 4005)]
 AMP_PORT = 4006
 
 # Optional - security measures limiting interface access
