@@ -19,6 +19,7 @@ from commands.command import CmdAbilities
 from commands.command import CmdTransfer
 from commands.command import CmdStatus
 from typeclasses.shop import CmdBuildShop
+from commands.command import CmdEnd
 
 
 class CharacterCmdSet(default_cmds.CharacterCmdSet):
@@ -41,6 +42,7 @@ class CharacterCmdSet(default_cmds.CharacterCmdSet):
         self.add(CmdAbilities())
         self.add(CmdTransfer())
         self.add(CmdStatus())
+        self.add(CmdEnd())
 
 
 class AccountCmdSet(default_cmds.AccountCmdSet):

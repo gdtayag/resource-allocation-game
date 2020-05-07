@@ -261,3 +261,21 @@ class CmdStatus(Command):
         for x in stats:
             string += "%s: %s\n" % (x, stats[x])
         self.caller.msg(string)
+
+class CmdEnd(Command):
+    """
+    End turn
+
+    Usage:
+        end
+
+    Ends turns and gives you scenario to decide on
+    """
+    key = "end"
+
+    def func(self):
+        game = self.caller.search("game")
+        players = list(evennia.search_tag("pc"))
+        for x in players:
+            player = self.caller.search(x)
+            player.end_turn()
