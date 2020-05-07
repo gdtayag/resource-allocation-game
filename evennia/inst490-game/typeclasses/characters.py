@@ -41,6 +41,10 @@ class Character(DefaultCharacter):
                      "Workforce":0,
                      "Medical Supplies":0}
         self.db.inventory = inventory
+        self.tags.add("Player")
+
+    def at_after_move(self, source_location):
+        pass
 
     def get_inventory(self):
         return self.db.inventory
