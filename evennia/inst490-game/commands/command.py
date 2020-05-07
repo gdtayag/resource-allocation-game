@@ -185,15 +185,15 @@ class Command(BaseCommand):
 #                 self.character = None
 class CmdAbilities(Command):
     """
-    List abilities
+    List Inventory
 
     Usage:
-      abilities
+      inventory
 
-    Displays a list of your current ability values.
+    Displays a list of your current inventory.
     """
-    key = "budget"
-    aliases = ["b"]
+    key = "inventory"
+    aliases = ["i"]
     lock = "cmd:all()"
     help_category = "General"
 
@@ -205,3 +205,43 @@ class CmdAbilities(Command):
         for x in inventory:
             string += "%s: %s\n" % (x, inventory[x])
         self.caller.msg(string)
+
+class CmdTransfer(Command):
+    """
+    Transfer Money
+
+    Usage:
+        transfer <character> <amount>
+
+    Transfers amount of money to a player
+    """
+    key = "transfer"
+    aliases = ["t"]
+    lock: "cmd.all()"
+    auto_help = True
+    help_category = "General"
+
+    def func(self):
+        if not (self.args):
+            self.caller.msg("Usage: transfer <character> <amount>")
+            return
+        elif len(self.args.split()) < 2:
+            self.caller.msg("Usage: transfer <character> <amount>")
+            return
+
+        arguments = self.args.split()
+        target = self.caller.search(arguments[0])
+
+        if not target:
+            return
+        try:
+            int(arguments[1])
+        except Exception as e:
+            self.caller.msg("Usage: transfer <character> <amount>")
+            return
+
+        self.caller.db.inventory["Budget"] -= int(arguments[1])
+        self.caller.msg("Transfered %s to %s" % (arguments[1], arguments[0]))
+
+        target.db.inventory["Budget"] += int(arguments[1])
+        target.msg("%s transfered %s to you" % (self.caller.key, arguments[1]))
