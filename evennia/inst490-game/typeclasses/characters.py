@@ -8,7 +8,8 @@ creation commands.
 
 """
 from evennia import DefaultCharacter
-
+from numpy import random
+from evennia.utils import evmenu
 
 class Character(DefaultCharacter):
     """
@@ -41,6 +42,18 @@ class Character(DefaultCharacter):
                      "Workforce":0,
                      "Medical Supplies":0}
         self.db.inventory = inventory
+        self.tags.add("pc")
+
+    def at_after_move(self, source_location):
+        pass
 
     def get_inventory(self):
         return self.db.inventory
+
+    def end_turn(caller):
+        #rand = random.randInt(5)
+        rand = 1;
+        if rand == 1:
+            evmenu.EvMenu(caller, "world.scenarios", startnode="scenario_1")
+        #elif rand == 2:
+        #    return "scenario_2"

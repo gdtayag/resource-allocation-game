@@ -6,6 +6,7 @@ Commands describe the input the account can do to the game.
 """
 
 from evennia import Command as BaseCommand
+import evennia
 
 # from evennia import default_cmds
 
@@ -245,3 +246,41 @@ class CmdTransfer(Command):
 
         target.db.inventory["Budget"] += int(arguments[1])
         target.msg("%s transfered %s to you" % (self.caller.key, arguments[1]))
+
+class CmdStatus(Command):
+    """
+    Check Game Status
+
+    Usage:
+        status
+
+    Checks the game status and lists out game information
+    """
+    key = "status"
+
+    def func(self):
+        game = evennia.search_tag("Game")
+
+        stats = game[0].get_stats()
+        string = ""
+        for x in stats:
+            string += "%s: %s\n" % (x, stats[x])
+        self.caller.msg(string)
+
+class CmdEnd(Command):
+    """
+    End turn
+
+    Usage:
+        end
+
+    Ends turns and gives you scenario to decide on
+    """
+    key = "end"
+
+    def func(self):
+        game = self.caller.search("game")
+        players = list(evennia.search_tag("pc"))
+        for x in players:
+            player = self.caller.search(x)
+            player.end_turn()
