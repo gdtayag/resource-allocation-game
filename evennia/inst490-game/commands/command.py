@@ -185,15 +185,15 @@ class Command(BaseCommand):
 #                 self.character = None
 class CmdAbilities(Command):
     """
-    List abilities
+    List Inventory
 
     Usage:
-      abilities
+      inventory
 
-    Displays a list of your current ability values.
+    Displays a list of your current inventory.
     """
-    key = "budget"
-    aliases = ["b"]
+    key = "inventory"
+    aliases = ["i"]
     lock = "cmd:all()"
     help_category = "General"
 
@@ -207,8 +207,18 @@ class CmdAbilities(Command):
         self.caller.msg(string)
 
 class CmdTransfer(Command):
+    """
+    Transfer Money
+
+    Usage:
+        transfer <character> <amount>
+
+    Transfers amount of money to a player
+    """
     key = "transfer"
     aliases = ["t"]
+    lock: "cmd.all()"
+    auto_help = True
     help_category = "General"
 
     def func(self):
