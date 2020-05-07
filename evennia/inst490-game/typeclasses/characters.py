@@ -51,9 +51,9 @@ class Character(DefaultCharacter):
         return self.db.inventory
 
     def end_turn(caller):
-        #rand = random.randInt(5)
-        rand = 1;
+        rand = random.randint(2) + 1
+        #rand = 1;
         if rand == 1:
             evmenu.EvMenu(caller, "world.scenarios", startnode="scenario_1")
-        #elif rand == 2:
-        #    return "scenario_2"
+        elif rand == 2:
+            evmenu.EvMenu(caller, "world.scenarios", startnode="scenario_2")
