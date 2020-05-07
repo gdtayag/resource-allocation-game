@@ -6,7 +6,7 @@ Commands describe the input the account can do to the game.
 """
 
 from evennia import Command as BaseCommand
-import evennia
+from evennia.utils.search import search_tag
 
 # from evennia import default_cmds
 
@@ -259,7 +259,7 @@ class CmdStatus(Command):
     key = "status"
 
     def func(self):
-        game = evennia.search_tag("Game")
+        game = search_tag("Game")
 
         stats = game[0].get_stats()
         string = ""
@@ -280,7 +280,9 @@ class CmdEnd(Command):
 
     def func(self):
         game = self.caller.search("game")
-        players = list(evennia.search_tag("pc"))
+        players = list(search_tag("pc"))
         for x in players:
             player = self.caller.search(x)
+            if not player:
+                continue
             player.end_turn()

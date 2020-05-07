@@ -33,7 +33,7 @@ class Character(DefaultCharacter):
     """
     def at_object_creation(self):
         "This is called when object is first created, only."
-        inventory = {"Budget":10000,
+        inventory = {"Budget":100000,
                      "Toilet Paper":0,
                      "Food":0,
                      "Hand Sanitizer":0,
