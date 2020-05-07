@@ -195,6 +195,8 @@ class CmdAbilities(Command):
     """
     key = "inventory"
     aliases = ["i"]
+    lock = "cmd:all()"
+    help_category = "General"
 
     def func(self):
         "implements the actual functionality"
@@ -216,6 +218,9 @@ class CmdTransfer(Command):
     """
     key = "transfer"
     aliases = ["t"]
+    lock: "cmd.all()"
+    auto_help = True
+    help_category = "General"
 
     def func(self):
         if not (self.args):
